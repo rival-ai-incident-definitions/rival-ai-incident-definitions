@@ -1,0 +1,24 @@
+{
+  "title": "Rival AI-Incident Definitions",
+  "upload_type": "software",
+  "description": "Site for rival AI-incident definitions applied to the same incidents.",
+  "creators": [
+    {
+      "name": "Tower, Elliot",
+      "orcid": "0000-0001-7004-8884"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "AI incidents",
+    "incident reporting",
+    "case definitions"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/rival-ai-incident-definitions/rival-ai-incident-definitions",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

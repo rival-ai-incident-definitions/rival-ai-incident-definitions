@@ -1,0 +1,58 @@
+{
+  "/rival-ai-incident-definitions/definitions/": [
+    {
+      "slug": "/crosswalk/",
+      "title": "Crosswalk"
+    },
+    {
+      "slug": "/index/",
+      "title": "Rival AI-Incident Definitions"
+    }
+  ],
+  "/rival-ai-incident-definitions/definitions/oecd/": [
+    {
+      "slug": "/definitions/eu-ai-act/",
+      "title": "EU AI Act"
+    },
+    {
+      "slug": "/definitions/",
+      "title": "Definitions"
+    }
+  ],
+  "/rival-ai-incident-definitions/definitions/eu-ai-act/": [
+    {
+      "slug": "/definitions/",
+      "title": "Definitions"
+    }
+  ],
+  "/rival-ai-incident-definitions/definitions/cset/": [
+    {
+      "slug": "/definitions/",
+      "title": "Definitions"
+    }
+  ],
+  "/rival-ai-incident-definitions/definitions/aiid/": [
+    {
+      "slug": "/definitions/",
+      "title": "Definitions"
+    }
+  ],
+  "/rival-ai-incident-definitions/foundations/": [
+    {
+      "slug": "/index/",
+      "title": "Rival AI-Incident Definitions"
+    }
+  ],
+  "/rival-ai-incident-definitions/crosswalk/": [
+    {
+      "slug": "/index/",
+      "title": "Rival AI-Incident Definitions"
+    }
+  ],
+  "/rival-ai-incident-definitions/readings/": [
+    {
+      "slug": "/index/",
+      "title": "Rival AI-Incident Definitions"
+    }
+  ]
+}
