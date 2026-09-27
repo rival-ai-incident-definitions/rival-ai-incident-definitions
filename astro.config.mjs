@@ -25,6 +25,9 @@ export default defineConfig({
     starlight({
       plugins: [starlightImageZoom()],
       title: 'Rival AI-Incident Definitions',
+      social: [
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/rival-ai-incident-definitions/rival-ai-incident-definitions' },
+      ],
       lastUpdated: false,
       description: 'Rival definitions of an AI incident applied to the same incidents: where they disagree, whether the disagreement survives every reading of each definition, and how other safety fields decide what counts',
       customCss: ['./src/styles/custom.css'],
@@ -42,18 +45,10 @@ export default defineConfig({
       sidebar: [
         { label: 'Home', link: '/' },
         {
-          label: 'Overview',
+          label: 'Framework',
           collapsed: false,
           items: [
-            { label: 'Framework Overview', link: '/framework/' },
-            { label: 'Glossary', link: '/glossary/' },
-            { label: 'About', link: '/about_cite/' },
-          ],
-        },
-        {
-          label: 'Rival AI-Incident Definitions Framework',
-          collapsed: false,
-          items: [
+            { label: 'Overview', link: '/framework/' },
             {
               label: '1. Definitions',
               collapsed: true,
@@ -65,8 +60,19 @@ export default defineConfig({
                 { label: 'AI Incident Database', link: '/definitions/aiid/' },
               ],
             },
-            { label: '2. Crosswalk', link: '/crosswalk/' },
+            { label: '2. Rules', link: '/framework/rules/' },
             { label: '3. Readings', link: '/readings/' },
+            { label: '4. Three-State Labels', link: '/framework/three-state/' },
+            { label: '5. Crosswalk', link: '/crosswalk/' },
+            { label: '6. Verdicts', link: '/framework/verdicts/' },
+          ],
+        },
+        {
+          label: 'Study',
+          collapsed: false,
+          items: [
+            { label: 'Overview', link: '/study/' },
+            { label: 'Preregistration', link: '/study/preregistration/' },
           ],
         },
         {
@@ -75,13 +81,21 @@ export default defineConfig({
           items: [
             { label: 'Overview', link: '/foundations/' },
             { label: 'Aviation', link: '/foundations/aviation/' },
-            { label: 'Medical devices', link: '/foundations/medical-devices/' },
+            { label: 'Medical Devices', link: '/foundations/medical-devices/' },
             { label: 'Pharmacovigilance', link: '/foundations/pharmacovigilance/' },
-            { label: 'Patient safety', link: '/foundations/patient-safety/' },
-            { label: 'Nuclear safety', link: '/foundations/nuclear-safety/' },
+            { label: 'Patient Safety', link: '/foundations/patient-safety/' },
+            { label: 'Nuclear Safety', link: '/foundations/nuclear-safety/' },
             { label: 'Cybersecurity', link: '/foundations/cybersecurity/' },
-            { label: 'Process safety', link: '/foundations/process-safety/' },
-            { label: 'Public-health case definitions', link: '/foundations/public-health/' },
+            { label: 'Process Safety', link: '/foundations/process-safety/' },
+            { label: 'Public-Health Case Definitions', link: '/foundations/public-health/' },
+          ],
+        },
+        {
+          label: 'Reference',
+          collapsed: false,
+          items: [
+            { label: 'Glossary', link: '/glossary/' },
+            { label: 'About', link: '/about_cite/' },
           ],
         },
       ],

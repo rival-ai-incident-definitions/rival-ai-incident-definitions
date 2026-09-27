@@ -3,6 +3,8 @@ title: CSET
 description: The CSET AI Harm Taxonomy definitions of an AI tangible harm event and a special interest intangible AI harm, quoted from the 2023 annotation guide.
 ---
 
+# CSET
+
 The Center for Security and Emerging Technology (CSET) coded AI Incident Database incidents with its AI Harm Taxonomy (CSETv1). The annotation guide defines two kinds of harm.
 
 ## Definitions

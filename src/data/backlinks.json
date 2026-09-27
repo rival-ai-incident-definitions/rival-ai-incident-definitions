@@ -15,6 +15,10 @@
     {
       "slug": "/index/",
       "title": "Rival AI-Incident Definitions"
+    },
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
     }
   ],
   "/rival-ai-incident-definitions/definitions/": [
@@ -101,8 +105,16 @@
       "title": "Process Safety"
     },
     {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
       "slug": "/glossary/",
       "title": "Glossary"
+    },
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
     }
   ],
   "/rival-ai-incident-definitions/definitions/eu-ai-act/": [
@@ -125,6 +137,10 @@
     {
       "slug": "/glossary/",
       "title": "Glossary"
+    },
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
     }
   ],
   "/rival-ai-incident-definitions/definitions/aiid/": [
@@ -161,8 +177,16 @@
       "title": "Public-Health Case Definitions"
     },
     {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
       "slug": "/glossary/",
       "title": "Glossary"
+    },
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
     }
   ],
   "/rival-ai-incident-definitions/definitions/cset/": [
@@ -191,66 +215,114 @@
       "title": "Public-Health Case Definitions"
     },
     {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
       "slug": "/glossary/",
       "title": "Glossary"
+    },
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
     }
   ],
   "/rival-ai-incident-definitions/foundations/aviation/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
     }
   ],
   "/rival-ai-incident-definitions/foundations/medical-devices/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
     }
   ],
   "/rival-ai-incident-definitions/foundations/pharmacovigilance/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
     }
   ],
   "/rival-ai-incident-definitions/foundations/patient-safety/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
     }
   ],
   "/rival-ai-incident-definitions/foundations/nuclear-safety/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
     }
   ],
   "/rival-ai-incident-definitions/foundations/cybersecurity/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
     }
   ],
   "/rival-ai-incident-definitions/foundations/process-safety/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
     }
   ],
   "/rival-ai-incident-definitions/foundations/public-health/": [
     {
       "slug": "/foundations/",
       "title": "Theoretical Foundations"
-    }
-  ],
-  "/rival-ai-incident-definitions/glossary/": [
+    },
     {
       "slug": "/framework/",
       "title": "Framework Overview"
-    },
+    }
+  ],
+  "/rival-ai-incident-definitions/": [
     {
-      "slug": "/readings/",
-      "title": "Readings"
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    }
+  ],
+  "/rival-ai-incident-definitions/study/": [
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    }
+  ],
+  "/rival-ai-incident-definitions/framework/rules/": [
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
     }
   ],
   "/rival-ai-incident-definitions/readings/": [
@@ -259,14 +331,84 @@
       "title": "Framework Overview"
     },
     {
+      "slug": "/framework/rules/",
+      "title": "Rules"
+    },
+    {
+      "slug": "/framework/verdicts/",
+      "title": "Verdicts"
+    },
+    {
       "slug": "/glossary/",
       "title": "Glossary"
+    },
+    {
+      "slug": "/readings/",
+      "title": "Readings"
+    }
+  ],
+  "/rival-ai-incident-definitions/framework/three-state/": [
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
+      "slug": "/framework/rules/",
+      "title": "Rules"
+    },
+    {
+      "slug": "/framework/verdicts/",
+      "title": "Verdicts"
+    },
+    {
+      "slug": "/study/preregistration/",
+      "title": "Preregistration"
+    }
+  ],
+  "/rival-ai-incident-definitions/framework/verdicts/": [
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
+      "slug": "/framework/three-state/",
+      "title": "Three-State Labels"
+    },
+    {
+      "slug": "/readings/",
+      "title": "Readings"
+    },
+    {
+      "slug": "/study/preregistration/",
+      "title": "Preregistration"
+    },
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
     }
   ],
   "/rival-ai-incident-definitions/foundations/": [
     {
       "slug": "/framework/",
       "title": "Framework Overview"
+    }
+  ],
+  "/rival-ai-incident-definitions/glossary/": [
+    {
+      "slug": "/readings/",
+      "title": "Readings"
+    }
+  ],
+  "/rival-ai-incident-definitions/framework/": [
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
+    }
+  ],
+  "/rival-ai-incident-definitions/study/preregistration/": [
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
     }
   ]
 }

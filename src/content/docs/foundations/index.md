@@ -4,6 +4,8 @@ description: How mature incident-reporting fields decide what counts as an incid
 tableOfContents: false
 ---
 
+# Theoretical Foundations
+
 AI incident reporting is new, and its published definitions disagree on questions that older safety fields have had to settle for decades: whether an event that nearly caused harm counts, how much a system must have contributed to a harm before the event is recorded against it, and what to write down when the facts are uncertain. Those fields have working answers, so when an AI definition can be read two ways, the reading that matches a mature field's practice has a precedent behind it and the other does not.
 
 Mature incident-reporting systems in aviation, medicine, nuclear power, cybersecurity, chemical processing and public health record, as separate entries, whether harm occurred, whether the event was a near miss, what part the system played, and how certain the classification is. The AI-incident definitions compared on this site mostly put the same event under one label, incident or not. Each page below quotes a field's primary texts on those entries, so that a reading of an AI definition can point to a field that already works that way.

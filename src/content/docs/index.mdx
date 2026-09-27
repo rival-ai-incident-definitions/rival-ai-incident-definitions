@@ -3,7 +3,9 @@ title: Rival AI-Incident Definitions
 description: The same AI failure can be counted as an incident under one published definition and left out under another; this study measures where and why.
 ---
 
-import { Badge, LinkButton, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { Badge, LinkButton } from '@astrojs/starlight/components';
+
+# Rival AI-Incident Definitions
 
 ### What counts as an AI incident?
 
@@ -12,7 +14,8 @@ When an AI system causes a problem, one published definition may count the event
 This project, **Rival AI-Incident Definitions**, applies stated readings of the published definitions to the same 214 incidents, which the Center for Security and Emerging Technology (CSET) coded field by field, and asks which incidents change classification, why they change, and whether each result holds under every defensible reading of each definition. The analysis plan is being finalized before any registered rule is run.
 
 <LinkButton href="/rival-ai-incident-definitions/framework/">Framework Overview</LinkButton>
-<LinkButton href="/rival-ai-incident-definitions/crosswalk/" variant="secondary">Crosswalk</LinkButton>
+<LinkButton href="/rival-ai-incident-definitions/study/" variant="secondary">Study Overview</LinkButton>
+<LinkButton href="/rival-ai-incident-definitions/foundations/" variant="secondary">How Other Fields Define Incidents</LinkButton>
 
 ## Worked Example: The Hugging Face Intrusion
 
@@ -64,12 +67,3 @@ Each of these raises a different boundary question.
 ## Why Now
 
 The question is no longer only academic. After the OpenAI–Hugging Face case, the chair of a Senate Homeland Security subcommittee [opened an investigation](https://www.hawley.senate.gov/chairman-hawley-launches-investigation-into-openai-for-hacking-existential-risk-of-ai-products/) into it in September 2026, and members of the House introduced two bills: the [Stop Rogue AI Act](https://gottheimer.house.gov/posts/release-gottheimer-introduces-bipartisan-bill-to-stop-rogue-ai-agents-and-keep-people-in-control), which would direct NIST to develop standards for discovering, verifying and controlling AI agents, and the [AI Kill Switch Act](https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can), which would require the largest developers to keep the ability to shut their most powerful systems down and to report incidents. These are an inquiry and two proposals, none of which is law, and none of which settles what counts as an AI incident.
-
-## Explore
-
-<CardGrid>
-  <LinkCard title="Definitions" description="Each published definition and database, quoted from its source and compared on the same rows" href="/rival-ai-incident-definitions/definitions/" />
-  <LinkCard title="Crosswalk" description="The same incidents classified by more than one coder or taxonomy" href="/rival-ai-incident-definitions/crosswalk/" />
-  <LinkCard title="Readings" description="Where a definition can be read more than one way, and what supports each reading" href="/rival-ai-incident-definitions/readings/" />
-  <LinkCard title="How other fields draw the line" description="Aviation, medical devices, nuclear safety and other fields that record incidents" href="/rival-ai-incident-definitions/foundations/" />
-</CardGrid>

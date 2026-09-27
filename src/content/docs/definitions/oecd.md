@@ -3,6 +3,8 @@ title: OECD
 description: The OECD definitions of an AI incident and an AI hazard, quoted from the 2024 OECD paper.
 ---
 
+# OECD
+
 The Organisation for Economic Co-operation and Development (OECD) defines an AI incident and an AI hazard in *Defining AI Incidents and Related Terms* (OECD Artificial Intelligence Papers No. 16, 2024).
 
 ## Definition

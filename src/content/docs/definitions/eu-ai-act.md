@@ -3,6 +3,8 @@ title: EU AI Act
 description: The EU AI Act definition of a serious incident, Article 3(49), and the Article 73 reporting duty.
 ---
 
+# EU AI Act
+
 The EU Artificial Intelligence Act (Regulation (EU) 2024/1689) defines a *serious incident* in Article 3, point (49), and sets the duty to report one in Article 73.
 
 ## Definition

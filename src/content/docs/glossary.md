@@ -3,6 +3,8 @@ title: Glossary
 description: Terms used on this site, in plain words.
 ---
 
+# Glossary
+
 ## Terms this site uses
 
 <span id="definition"></span>**Definition.** A text that says what counts as an AI incident, such as the [OECD](/rival-ai-incident-definitions/definitions/oecd/) or [EU AI Act](/rival-ai-incident-definitions/definitions/eu-ai-act/) definition.
