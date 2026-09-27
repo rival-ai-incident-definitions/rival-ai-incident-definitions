@@ -67,6 +67,80 @@
       "title": "Framework Overview"
     }
   ],
+  "/rival-ai-incident-definitions/definitions/csetv0/": [
+    {
+      "slug": "/definitions/cset/",
+      "title": "CSETv1"
+    },
+    {
+      "slug": "/definitions/",
+      "title": "Definitions"
+    },
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
+    }
+  ],
+  "/rival-ai-incident-definitions/definitions/cset/": [
+    {
+      "slug": "/definitions/csetv0/",
+      "title": "CSETv0"
+    },
+    {
+      "slug": "/definitions/",
+      "title": "Definitions"
+    },
+    {
+      "slug": "/foundations/aviation/",
+      "title": "Aviation"
+    },
+    {
+      "slug": "/foundations/nuclear-safety/",
+      "title": "Nuclear Safety"
+    },
+    {
+      "slug": "/foundations/patient-safety/",
+      "title": "Patient Safety"
+    },
+    {
+      "slug": "/foundations/pharmacovigilance/",
+      "title": "Pharmacovigilance"
+    },
+    {
+      "slug": "/foundations/public-health/",
+      "title": "Public-Health Case Definitions"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
+      "slug": "/glossary/",
+      "title": "Glossary"
+    },
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
+    }
+  ],
+  "/rival-ai-incident-definitions/study/": [
+    {
+      "slug": "/definitions/csetv0/",
+      "title": "CSETv0"
+    },
+    {
+      "slug": "/definitions/mit/",
+      "title": "MIT AI Incident Tracker"
+    },
+    {
+      "slug": "/definitions/pagcf/",
+      "title": "PAGCF"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    }
+  ],
   "/rival-ai-incident-definitions/definitions/oecd/": [
     {
       "slug": "/definitions/eu-ai-act/",
@@ -149,6 +223,14 @@
       "title": "Definitions"
     },
     {
+      "slug": "/definitions/mit/",
+      "title": "MIT AI Incident Tracker"
+    },
+    {
+      "slug": "/definitions/pagcf/",
+      "title": "PAGCF"
+    },
+    {
       "slug": "/foundations/aviation/",
       "title": "Aviation"
     },
@@ -189,42 +271,16 @@
       "title": "Study Overview"
     }
   ],
-  "/rival-ai-incident-definitions/definitions/cset/": [
+  "/rival-ai-incident-definitions/definitions/mit/": [
     {
       "slug": "/definitions/",
       "title": "Definitions"
-    },
+    }
+  ],
+  "/rival-ai-incident-definitions/definitions/pagcf/": [
     {
-      "slug": "/foundations/aviation/",
-      "title": "Aviation"
-    },
-    {
-      "slug": "/foundations/nuclear-safety/",
-      "title": "Nuclear Safety"
-    },
-    {
-      "slug": "/foundations/patient-safety/",
-      "title": "Patient Safety"
-    },
-    {
-      "slug": "/foundations/pharmacovigilance/",
-      "title": "Pharmacovigilance"
-    },
-    {
-      "slug": "/foundations/public-health/",
-      "title": "Public-Health Case Definitions"
-    },
-    {
-      "slug": "/framework/",
-      "title": "Framework Overview"
-    },
-    {
-      "slug": "/glossary/",
-      "title": "Glossary"
-    },
-    {
-      "slug": "/study/",
-      "title": "Study Overview"
+      "slug": "/definitions/",
+      "title": "Definitions"
     }
   ],
   "/rival-ai-incident-definitions/foundations/aviation/": [
@@ -308,12 +364,6 @@
     }
   ],
   "/rival-ai-incident-definitions/": [
-    {
-      "slug": "/framework/",
-      "title": "Framework Overview"
-    }
-  ],
-  "/rival-ai-incident-definitions/study/": [
     {
       "slug": "/framework/",
       "title": "Framework Overview"

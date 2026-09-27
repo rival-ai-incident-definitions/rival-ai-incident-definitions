@@ -32,7 +32,7 @@ The incidents are the 214 in the AI Incident Database that CSET's annotators cod
 | Experiment | Question | What is compared | Incidents |
 |---|---|---|---|
 | Definition crosswalk | How do published AI-incident definitions reclassify the same coded incidents? | [CSET](/rival-ai-incident-definitions/definitions/cset/)'s harm definitions against the [OECD](/rival-ai-incident-definitions/definitions/oecd/)'s incident and hazard definitions, and the [EU AI Act](/rival-ai-incident-definitions/definitions/eu-ai-act/)'s death limb, under every reading | 214 |
-| Revision | What changes when one taxonomy is revised and the same incidents are recoded? | [CSET](/rival-ai-incident-definitions/definitions/cset/)'s first edition against its second on the incidents coded under both | 100 |
+| Revision | What changes when one taxonomy is revised and the same incidents are recoded? | [CSETv0](/rival-ai-incident-definitions/definitions/csetv0/) against [CSETv1](/rival-ai-incident-definitions/definitions/cset/) on the incidents coded under both | 100 |
 | Human and language-model coding | Do a human-coded and an LLM-coded taxonomy sort the same incidents the same way? | [CSET](/rival-ai-incident-definitions/definitions/cset/)'s human annotations against the [MIT AI Incident Tracker](https://airisk.mit.edu/ai-incident-tracker)'s language-model classifications | 214 |
 | Author-supplied coding | Does an author-supplied case-level coding match the joint table recovered from its printed summaries? | The [PAGCF](https://arxiv.org/abs/2605.16281) coding's [EU AI Act](/rival-ai-incident-definitions/definitions/eu-ai-act/) and GDPR flags, as released by its authors, against the table implied by their published figures | 480 |
 
