@@ -51,7 +51,7 @@ export default defineConfig({
             { label: 'Overview', link: '/framework/' },
             {
               label: '1. Definitions',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { label: 'Overview', link: '/definitions/' },
                 { label: 'OECD', link: '/definitions/oecd/' },
