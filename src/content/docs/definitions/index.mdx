@@ -1,0 +1,35 @@
+---
+title: Definitions
+description: Published definitions of an AI incident and the databases that code incidents, compared on the same rows.
+tableOfContents: false
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+Two kinds of source decide what counts as an AI incident. A **definition** is a text that says what counts. A **database or coding** records actual incidents and labels them, and both kinds are compared on the same rows. Each page quotes its source; a cell reads "not yet sourced" until its source is retrieved and the quotation verified.
+
+## Definitions
+
+| | [OECD](/rival-ai-incident-definitions/definitions/oecd/) | [EU AI Act](/rival-ai-incident-definitions/definitions/eu-ai-act/) |
+|---|---|---|
+| **Role in the study** | The main definition we test: which incidents it counts, worked out from CSET's labels | A law's definition; we count the incidents in which an AI was linked to a death |
+| **AI involvement** | "directly or indirectly leads to" | "directly or indirectly leads to" |
+| **Harm must have occurred** | <Badge text="yes" variant="success" /> risk is a separate term | <Badge text="yes" variant="success" /> |
+| **Near miss** | <Badge text="separate term" variant="note" /> AI hazard | <Badge text="not covered" variant="danger" /> |
+| **Seriousness threshold** | <Badge text="none" variant="default" /> serious incidents are a subset | <Badge text="required" variant="danger" /> limbs (a), (b), (d) |
+| **Harm types** | 4 clauses (a)–(d) | 4 limbs (a)–(d) |
+| **Rule for uncertain cases** | <Badge text="not stated" variant="default" /> | <Badge text="not stated" variant="default" /> |
+
+## Databases and codings
+
+| | [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/) | [CSET](/rival-ai-incident-definitions/definitions/cset/) | [CSET, first edition](https://incidentdatabase.ai/taxonomies/csetv0/) | [MIT AI Incident Tracker](https://airisk.mit.edu/ai-incident-tracker) | [PAGCF (Mumtaz et al.)](https://arxiv.org/abs/2605.16281) |
+|---|---|---|---|---|---|
+| **Role in the study** | The public database all 214 incidents come from | Human coders' labels for 214 of those incidents; every comparison runs on them | CSET's first edition, applied to 100 of the same incidents | Labels a language model assigned to the same incidents, compared with CSET's | A research team's coding of 480 incidents against EU, US and data-protection rules |
+| **AI involvement** | "implicated"; at least a but-for cause | "can be directly linked to"; at least a but-for cause | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> |
+| **Harm must have occurred** | <Badge text="no" variant="caution" /> "harm or near harm" | <Badge text="tangible: yes" variant="success" /> <Badge text="intangible: risk counts" variant="caution" /> | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> |
+| **Near miss** | <Badge text="included" variant="caution" /> | <Badge text="separate level" variant="note" /> tangible only | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> |
+| **Seriousness threshold** | <Badge text="none stated" variant="default" /> | <Badge text="none" variant="default" /> | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> |
+| **Harm types** | people, property, environment | tangible, plus 3 intangible categories | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> |
+| **Rule for uncertain cases** | <Badge text="not stated" variant="default" /> | <Badge text="stated" variant="success" /> lowest clearly known level | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> | <Badge text="not yet sourced" variant="default" /> |
+
+Colors mark how broad each source is on a row: green where it requires the narrow reading, amber where it admits more, red where it excludes or restricts, blue where it moves the case to a separate term.

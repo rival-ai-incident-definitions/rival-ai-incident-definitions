@@ -42,8 +42,11 @@ npm run build     # production build into dist/
 ## Sidebar
 
 Laid out as Mechanistic Validity's: Home → **Overview** (Framework Overview, Glossary,
-About) → **Rival AI-Incident Definitions Framework** (Theoretical Foundations,
-1. Definitions, 2. Crosswalk, 3. Readings).
+About) → **Rival AI-Incident Definitions Framework** (1. Definitions, 2. Crosswalk,
+3. Readings) → **Theoretical Foundations** (Overview, then one page per field:
+aviation, medical devices, pharmacovigilance, patient safety, nuclear safety,
+cybersecurity, process safety, public-health case definitions). Quotations on the
+field pages are pinned in the research repository under `claims/foundations/`.
 
 ## Page types
 
@@ -63,3 +66,7 @@ About) → **Rival AI-Incident Definitions Framework** (Theoretical Foundations,
 - State a quotation that has not passed `citations verify`.
 - Paraphrase a secondary source where the primary text could not be retrieved; say it
   was not retrieved.
+
+## Planned: Examples section
+
+After the registered run, add an **Examples** sidebar group below Theoretical Foundations that walks through a few incidents in full under every definition and reading, including the OpenAI–Hugging Face case (AIID incident 1604). Until then the home page uses a constructed record, because running the rules on one of the 214 coded incidents before the freeze would be the registered analysis on real data.

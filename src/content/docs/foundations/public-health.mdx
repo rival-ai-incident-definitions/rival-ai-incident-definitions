@@ -1,0 +1,78 @@
+---
+title: Public-Health Case Definitions
+description: How CDC and CSTE surveillance case definitions grade a case as suspected, probable or confirmed, keep counts provisional, and separate surveillance from action.
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+Public-health surveillance counts cases of reportable diseases. In the United States, the Centers for Disease Control and Prevention (CDC) and the Council of State and Territorial Epidemiologists (CSTE) publish surveillance case definitions. The text quoted here is *Case Definitions for Infectious Conditions Under Public Health Surveillance* (CDC, Morbidity and Mortality Weekly Report, 1997), with one later report on the effect of a definition change.
+
+| | Public-health case definitions |
+|---|---|
+| **Harm must have occurred** | <Badge text="yes" variant="success" /> a case is "a clinical syndrome generally compatible with the disease" |
+| **Near miss** | <Badge text="not yet sourced" variant="default" /> |
+| **Seriousness threshold** | <Badge text="not yet sourced" variant="default" /> |
+| **Causal role** | <Badge text="separate criterion" variant="note" /> epidemiologic link: transmission "is plausible" |
+| **Rule for uncertain cases** | <Badge text="stated" variant="success" /> suspected, probable, confirmed; counts provisional |
+
+Colors follow the [Definitions](/rival-ai-incident-definitions/definitions/) page: green where the field requires the narrow reading, amber where it admits more, red where it excludes or restricts, blue where it moves the case to a separate term.
+
+## Recorded fields
+
+Case definitions exist to make counts comparable. Before uniform definitions, "state health departments and individual practitioners often applied different criteria for reporting similar cases". The definitions were written to "increase the specificity of reporting and improve the comparability of diseases reported from different geographic areas".
+
+A case record carries its classification as a field. The classification is the level of evidence behind the case, recorded next to the case itself.
+
+## Definitions
+
+> Clinically compatible case: a clinical syndrome generally compatible with the disease, as described in the clinical description.
+
+The epidemiologically linked case requires contact with a known case or source, and that "transmission of the agent by the usual modes of transmission is plausible".
+
+The graded classes are defined disease by disease. The measles definition ("Measles (Revised 9/96)") is an example:
+
+| Class | Quoted definition |
+|---|---|
+| Suspected | "Suspected: any febrile illness accompanied by rash" |
+| Probable | "Probable: a case that meets the clinical case definition, has noncontributory or no serologic or virologic testing, and is not epidemiologically linked to a confirmed case" |
+| Confirmed | "Confirmed: a case that is laboratory confirmed or that meets the clinical case definition and is epidemiologically linked to a confirmed case" |
+
+## Harm, near miss and hazard
+
+Every class describes an illness in a person. The classes grade the evidence that the illness is the named disease; none of them records an illness that nearly happened. The texts read define no near miss and no seriousness threshold, and those two cells read "not yet sourced".
+
+The count depends on the definition. When the acquired immunodeficiency syndrome (AIDS) definition was expanded in 1993, a CDC report for the first quarter found: "Of the 35,779 AIDS cases, 21,582 (60%) were reported based on the conditions added in 1993".
+
+## Causal role
+
+The epidemiologic link records the connection between a case and a source of infection as a criterion of the classification, with its own standard: transmission "is plausible". In the measles definition, a link to a confirmed case separates a confirmed case from a probable one.
+
+## Uncertain cases
+
+Surveillance keeps uncertainty in the record at two levels.
+
+**The case.** The graded classes above keep the probable case apart from the confirmed one. The record is revised as evidence arrives: "State health departments should continue prompt reporting of provisional cases to CDC, and records should be updated with the appropriate classification status when additional surveillance information becomes available".
+
+**The count.** Published weekly counts "are provisional because of ongoing revision of information and delayed reporting; thus, these numbers may change".
+
+Surveillance classification is also kept apart from action. The definitions "should not be used as criteria for public health action", and "appropriate public health action should be undertaken even though insufficient information is available to determine whether cases meet the case definition".
+
+## Bearing on AI-incident definitions
+
+**Graded certainty.** The suspected, probable and confirmed classes record how well an event is known, separately from whether it counts. The Center for Security and Emerging Technology (CSET) resolves the same doubt by rule, to "the lowest clearly known level of harm category"; the AI Incident Database (AIID) resolves it the other way, "erring on the side of finding harm when there is a plausible argument that harm occurred". A surveillance-style record would keep the grade and let each count choose its threshold.
+
+**Definition change.** The AIDS figures show one change in wording moving most of a quarter's count. The registered [Crosswalk](/rival-ai-incident-definitions/crosswalk/) of the four AI definitions tests for the same effect across definitions.
+
+**Causal role.** The epidemiologic link sets a plausibility standard for connecting a case to its source. The European Union (EU) AI Act starts its reporting clock "immediately after the provider has established a causal link between the AI system and the serious incident or the reasonable likelihood of such a link", a comparable standard.
+
+See [CSET](/rival-ai-incident-definitions/definitions/cset/), [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/) and [EU AI Act](/rival-ai-incident-definitions/definitions/eu-ai-act/).
+
+## Sources
+
+| Source | Status | Used for |
+|---|---|---|
+| [CDC, Case Definitions for Infectious Conditions Under Public Health Surveillance (MMWR 1997)](https://www.cdc.gov/mmwr/preview/mmwrhtml/00047449.htm) | verified | case classes, provisional counts, surveillance and action |
+| [CDC, Impact of the Expanded AIDS Surveillance Case Definition, First Quarter 1993](https://www.cdc.gov/mmwr/preview/mmwrhtml/00020374.htm) | verified | effect of a definition change |
+| Current CSTE position statements and CDC case definitions portal | not retrieved | current classes, including "suspect" handling |
+
+Every quotation on this page is pinned in the study repository under `claims/foundations/` (`cdc1997casedefs`, `cdc1993impact`, `cset2023guide`, `aiid2026editors`, `eu2024aiact`) and passes `citations verify`.

@@ -1,0 +1,83 @@
+---
+title: Patient Safety
+description: How the WHO International Classification for Patient Safety splits an incident into a reportable circumstance, near miss, no-harm incident and harmful incident, and records harm and contributing factors as separate classes.
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+Patient safety covers harm caused by healthcare itself. The text quoted here is the World Health Organization (WHO) *Conceptual Framework for the International Classification for Patient Safety* (ICPS), Version 1.1, Final Technical Report (January 2009, document WHO/IER/PSP/2010.2). The report is explicit about its status: "It is important to note that the ICPS is not yet a complete classification."
+
+| | Patient safety (WHO ICPS) |
+|---|---|
+| **Harm must have occurred** | <Badge text="no" variant="caution" /> "could have resulted, or did result" |
+| **Near miss** | <Badge text="separate class" variant="note" /> "an incident which did not reach the patient" |
+| **Seriousness threshold** | <Badge text="none" variant="default" /> degree of harm is its own class, from none to death |
+| **Causal role** | <Badge text="separate class" variant="note" /> contributing factors "thought to have played a part" |
+| **Rule for uncertain cases** | <Badge text="death only" variant="default" /> "on balance of probabilities" |
+
+Colors follow the [Definitions](/rival-ai-incident-definitions/definitions/) page: green where the field requires the narrow reading, amber where it admits more, red where it excludes or restricts, blue where it moves the case to a separate term.
+
+## Recorded fields
+
+The ICPS is organized into classes, introduced with "The 10 high level classes are:". The incident, its outcome for the patient, and the factors behind it sit in separate classes. Outcomes are themselves split: "Patient outcomes can be classified according to the type of harm, the degree of harm, and any social and/or economic impact." One incident may carry several types, because "a patient safety incident can be classified as more than one incident type".
+
+| Class | Quoted definition |
+|---|---|
+| Patient outcome | "Patient outcome is the impact upon a patient which is wholly or partially attributable to an incident." |
+| Degree of harm | "the degree of harm is the severity and duration of any harm, and any treatment implications, that result from an incident" |
+| Contributing factor | "A contributing factor is a circumstance, action or influence (such as poor rostering or task allocation) that is thought to have played a part in the origin or development, or to increase the risk, of an incident." |
+
+## Definitions
+
+> A patient safety incident is an event or circumstance that could have resulted, or did result, in unnecessary harm to a patient.
+
+> Hazard is a circumstance, agent or action with the potential to cause harm.
+
+> Risk is the probability than an incident will occur.
+
+The last quotation is reproduced as printed, including "than".
+
+## Harm, near miss and hazard
+
+The ICPS defines the incident broadly and then divides it: "An incident can be a reportable circumstance, near miss, no harm incident or harmful incident (adverse event)."
+
+| Kind | Quoted definition | Did harm occur? |
+|---|---|---|
+| Reportable circumstance | "A reportable circumstance is a situation in which there was significant potential for harm, but no incident occurred" | no, and no incident |
+| Near miss | "A near miss is an incident which did not reach the patient" | no |
+| No-harm incident | "A no harm incident is one in which an event reached a patient but no discernable harm resulted" | no |
+| Harmful incident | "A harmful incident (adverse event) is an incident that results in harm to a patient" | yes |
+
+Four distinctions are kept apart here: whether an event happened, whether it reached the patient, whether harm resulted, and how bad the harm was. The hazard stands outside all four as a standing condition.
+
+The ICPS lists the reportable circumstance as a kind of incident in one sentence and says "no incident occurred" in its definition. The report does not reconcile the two.
+
+## Causal role
+
+Causes are recorded as contributing factors, and the definition carries its own uncertainty: a factor is one "thought to have played a part". The ICPS does not require a single cause. "An incident always has a set of contributing factors." A factor need not be sufficient: "A contributing factor may be a necessary precursor of an incident and may or may not be sufficient to cause the incident."
+
+Attribution to the patient's outcome is partial by definition: the outcome is the impact "wholly or partially attributable to an incident".
+
+## Uncertain cases
+
+The ICPS states an evidence standard in one place, the top level of its degree-of-harm scale: "Death – on balance of probabilities, death was caused or brought forward in the short term by the incident." No general rule for uncertain classifications appears in chapters 2 and 3 of the report, which hold the framework and the definitions. Technical Annex 1 was not read.
+
+## Bearing on AI-incident definitions
+
+**Near miss.** The ICPS puts near misses inside the incident class, as a named kind. The Organisation for Economic Co-operation and Development (OECD) moves them out: "Near misses are events that could have led to an AI incident and are therefore included under this definition of AI hazards". The OECD's own earlier stocktaking gives the reason: "Over time, experts agreed that “near misses” should be part of “hazards”, due to the difficulty of determining in an objective manner when the latter is close to causing an incident but does not actually cause one". The ICPS answers the same difficulty with an observable test, whether the event reached the patient.
+
+**Reach without harm.** The no-harm incident has no counterpart in the AI definitions quoted on this site. The Center for Security and Emerging Technology (CSET) excludes a related case: "situations where an AI system could have caused harm but did not due to a safety mechanism are not AI harm".
+
+**Causal role.** The ICPS records a set of contributing factors, each "thought to have played a part". The AI Incident Database (AIID) asks for one relation, that the AI system "should at least be a “but-for” cause".
+
+See [OECD](/rival-ai-incident-definitions/definitions/oecd/), [CSET](/rival-ai-incident-definitions/definitions/cset/) and [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/).
+
+## Sources
+
+| Source | Status | Used for |
+|---|---|---|
+| [WHO, Conceptual Framework for the International Classification for Patient Safety, Version 1.1](https://iris.who.int/server/api/core/bitstreams/fc68f57e-3cf6-4fbf-a95d-2686593ea392/content) | verified | incident kinds, hazard, risk, contributing factors, degree of harm |
+| Agency for Healthcare Research and Quality (AHRQ) Common Formats | not retrieved | United States event reporting fields |
+| ICPS Technical Annex 1, concepts by class | retrieved, not read | full class hierarchy |
+
+Every quotation on this page is pinned in the study repository under `claims/foundations/` (`who2009icps`, `oecd2024defining`, `oecd2023stocktaking`, `cset2023guide`, `aiid2026editors`) and passes `citations verify`.

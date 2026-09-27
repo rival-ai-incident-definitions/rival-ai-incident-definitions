@@ -6,7 +6,7 @@ description: Agreement between coders and between taxonomies on the same AI Inci
 The same incidents, classified by more than one coder or more than one taxonomy.
 
 :::caution[Preliminary]
-The tables below are descriptive. They were computed from the AI Incident Database snapshot of 21 September 2026 before the study's registrations were frozen, and they test no registered hypothesis. The registered crosswalk of the four [definitions](/rival-ai-incident-definitions/definitions/) is not yet run.
+The tables below are descriptive, computed from the AI Incident Database snapshot of 21 September 2026 before the study's registrations were frozen, and they test no registered hypothesis. The registered crosswalk of the four [definitions](/rival-ai-incident-definitions/definitions/) is not yet run.
 :::
 
 A "yes" is positive and a "no" is negative. "Maybe", "unclear" and blank codes are dropped from each pair, so *n* varies by field. κ is Cohen's kappa.
@@ -15,7 +15,7 @@ A "yes" is positive and a "no" is negative. "Maybe", "unclear" and blank codes a
 
 CSET's taxonomy was applied to some incidents by more than one annotator. Annotators 1 and 2 share 88 incidents; annotators 1 and 3 share 76.
 
-| CSET field | annotators 1 and 2: n | agreement | κ | annotators 1 and 3: n | agreement | κ |
+| CSET field | Annotators 1 and 2: n | Agreement | Κ | Annotators 1 and 3: n | Agreement | Κ |
 |---|---|---|---|---|---|---|
 | AI System | 78 | 93.6% | 0.80 | 65 | 95.4% | 0.38 |
 | Clear link to technology | 76 | 86.8% | 0.31 | 65 | 98.5% | 0.79 |

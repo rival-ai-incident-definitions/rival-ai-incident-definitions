@@ -11,11 +11,11 @@ The Organisation for Economic Co-operation and Development (OECD) defines an AI 
 
 > An AI hazard is an event, circumstance or series of events where the development, use or malfunction of one or more AI systems could plausibly lead to an AI incident
 
-| element | text |
+| Element | Text |
 |---|---|
 | AI involvement | "directly or indirectly leads to" |
-| harms | four clauses, (a)–(d) |
-| harm that did not occur | an AI hazard: "could plausibly lead to an AI incident" |
+| Harms | Four clauses, (a)–(d) |
+| Harm that did not occur | An AI hazard: "could plausibly lead to an AI incident" |
 
 ## Commentary in the same paper
 

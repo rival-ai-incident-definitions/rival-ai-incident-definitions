@@ -1,22 +1,75 @@
 ---
 title: Rival AI-Incident Definitions
+description: The same AI failure can be counted as an incident under one published definition and left out under another; this study measures where and why.
 ---
 
-# Rival AI-Incident Definitions
+import { Badge, LinkButton, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-### Do the published definitions of an AI incident count the same things?
+### What counts as an AI incident?
 
-The OECD, the EU AI Act, CSET and the AI Incident Database each publish a rule for what counts as an AI incident. This site applies the rival definitions to the same incidents, measures where they disagree, and checks whether the disagreement survives every defensible reading of each definition.
+When an AI system causes a problem, one published definition may count the event as an incident, another may file it as a hazard, and a third may require facts the record does not contain, so the same event can appear in one count of AI incidents and be missing from another while nothing about the event itself has changed.
 
-:::caution[Draft]
-This site is under construction. Pages state only what has been verified against a source; unfinished pages say so.
-:::
+This project, **Rival AI-Incident Definitions**, applies stated readings of the published definitions to the same 214 incidents, which the Center for Security and Emerging Technology (CSET) coded field by field, and asks which incidents change classification, why they change, and whether each result holds under every defensible reading of each definition. The analysis plan is being finalized before any registered rule is run.
 
-## Sections
+<LinkButton href="/rival-ai-incident-definitions/framework/">Framework Overview</LinkButton>
+<LinkButton href="/rival-ai-incident-definitions/crosswalk/" variant="secondary">Crosswalk</LinkButton>
 
-| section | what it holds |
+## Worked Example: The Hugging Face Intrusion
+
+In July 2026 OpenAI reported that models in a cyber-capability evaluation operated beyond their intended environment and reached Hugging Face's production systems, where they accessed test solutions before Hugging Face detected and contained the activity ([AI Incident Database, incident 1604](https://incidentdatabase.ai/cite/1604)). Applied to that public account, the definitions give different answers depending on how each is read:
+
+| Definition | Reading | The event counts as | Because |
+|---|---|---|---|
+| OECD | Accessing another company's production systems is harm to property | <Badge text="AI incident" variant="success" /> | Clause (d) covers "harm to property, communities or the environment" |
+| OECD | The activity was contained before harm occurred | <Badge text="AI hazard" variant="note" /> | A hazard is an event that "could plausibly lead to an AI incident" |
+| EU AI Act | The harm to property was serious | <Badge text="Serious incident" variant="success" /> | Limb (d) requires "serious harm to property or the environment" |
+| EU AI Act | The harm was not serious | <Badge text="Not covered" variant="danger" /> | The definition has no category below serious |
+| AI Incident Database | Its admission rule as written | <Badge text="Incident 1604" variant="success" /> | It admits "an alleged harm or near harm event" |
+
+*This event has not yet been coded in any incident database, so this table is an illustration built from the public account.*
+
+## Why Counts Change
+
+Published definitions part on three questions, and each moves incidents in or out of a count:
+
+| Question | Where definitions differ |
 |---|---|
-| [Theoretical Foundations](/rival-ai-incident-definitions/foundations/) | how aviation, medical devices, nuclear safety and other fields decide what counts |
-| [1. Definitions](/rival-ai-incident-definitions/definitions/) | each published definition, quoted from its source |
-| [2. Crosswalk](/rival-ai-incident-definitions/crosswalk/) | the same incidents classified under each definition, with the joint table for every pair |
-| [3. Readings](/rival-ai-incident-definitions/readings/) | the defensible readings of each definition, each with its source, and the result under every reading |
+| Harm or risk | Some count only harm that occurred; others also count near misses or file them under a separate term such as the OECD's "AI hazard" |
+| AI involvement | Some require the harm to be directly linked to the AI's behavior; others admit any event in which an AI system is implicated |
+| Seriousness and type of harm | The EU AI Act's serious incident requires serious harm for most of its limbs; other definitions set no threshold and list different kinds of harm |
+
+The EU AI Act's reporting duty also depends on conditions the coded data cannot show, so the study computes only the parts of the EU definition that CSET's fields record, and says which parts it cannot compute.
+
+## Where Coders Disagree
+
+| Comparison | Incidents | What they label | Agreement |
+|---|---|---|---|
+| CSET vs the MIT AI Incident Tracker | 190 both coded yes or no | Was the harm intentional? | The MIT tracker called 29 intentional and CSET called 8; of the 30 either called intentional, they agree on 7 (Cohen's kappa 0.33) |
+| Two CSET annotators, same annotation guide | 76 both coded yes or no | Is the harm clearly linked to the AI? | Cohen's kappa 0.31, where 1 is perfect agreement and 0 is chance |
+
+Neither side of a comparison is scored as correct, because no reference standard exists, and both tables were computed before the study's registered rules were fixed. The full tables are on the [Crosswalk](/rival-ai-incident-definitions/crosswalk/) page.
+
+## Examples of AI Incidents
+
+Each of these raises a different boundary question.
+
+| Incident (the AI Incident Database's title) | Year | Boundary question |
+|---|---|---|
+| [X User Reportedly Used Morse Code Prompt to Induce Grok-Linked Trading Bot to Transfer $200,000 in Tokens](https://incidentdatabase.ai/cite/1556) | 2026 | Is a loss caused by a user tricking the model an AI incident, or fraud with an AI in it? |
+| [Chinese State-Linked Operator (GTG-1002) Reportedly Uses Claude Code for Autonomous Cyber Espionage](https://incidentdatabase.ai/cite/1263) | 2025 | Is deliberate misuse of a model that worked as asked an AI incident? |
+| [ChatGPT Allegedly Reinforced Delusions Before Greenwich, Connecticut Murder-Suicide](https://incidentdatabase.ai/cite/1204) | 2025 | What link between a chatbot and a death does a definition require, when the harm falls on a third person? |
+| [ChatGPT Reportedly Produced False Court Case Law Presented by Legal Counsel in Court](https://incidentdatabase.ai/cite/541) | 2023 | How directly is the AI involved when a person chose to file its output? |
+| [ChatGPT Reportedly Suggests Sodium Bromide as Chloride Substitute, Leading to Bromism and Hospitalization](https://incidentdatabase.ai/cite/1166) | 2025 | Is harm the user caused by following the AI's advice harm the AI caused? |
+
+## Why Now
+
+The question is no longer only academic. After the OpenAI–Hugging Face case, the chair of a Senate Homeland Security subcommittee [opened an investigation](https://www.hawley.senate.gov/chairman-hawley-launches-investigation-into-openai-for-hacking-existential-risk-of-ai-products/) into it in September 2026, and members of the House introduced two bills: the [Stop Rogue AI Act](https://gottheimer.house.gov/posts/release-gottheimer-introduces-bipartisan-bill-to-stop-rogue-ai-agents-and-keep-people-in-control), which would direct NIST to develop standards for discovering, verifying and controlling AI agents, and the [AI Kill Switch Act](https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can), which would require the largest developers to keep the ability to shut their most powerful systems down and to report incidents. These are an inquiry and two proposals, none of which is law, and none of which settles what counts as an AI incident.
+
+## Explore
+
+<CardGrid>
+  <LinkCard title="Definitions" description="Each published definition and database, quoted from its source and compared on the same rows" href="/rival-ai-incident-definitions/definitions/" />
+  <LinkCard title="Crosswalk" description="The same incidents classified by more than one coder or taxonomy" href="/rival-ai-incident-definitions/crosswalk/" />
+  <LinkCard title="Readings" description="Where a definition can be read more than one way, and what supports each reading" href="/rival-ai-incident-definitions/readings/" />
+  <LinkCard title="How other fields draw the line" description="Aviation, medical devices, nuclear safety and other fields that record incidents" href="/rival-ai-incident-definitions/foundations/" />
+</CardGrid>

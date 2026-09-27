@@ -11,11 +11,11 @@ An AI incident is
 
 > an alleged harm or near harm event to people, property, or the environment where an AI system is implicated.
 
-| element | text |
+| Element | Text |
 |---|---|
 | AI involvement | "implicated" |
-| harm | "harm or near harm event to people, property, or the environment" |
-| harm that did not occur | included: "near harm" |
+| Harm | "harm or near harm event to people, property, or the environment" |
+| Harm that did not occur | Included: "near harm" |
 
 ## Causal involvement
 

@@ -1,12 +1,66 @@
 {
+  "/rival-ai-incident-definitions/crosswalk/": [
+    {
+      "slug": "/about_cite/",
+      "title": "About"
+    },
+    {
+      "slug": "/foundations/public-health/",
+      "title": "Public-Health Case Definitions"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
+      "slug": "/index/",
+      "title": "Rival AI-Incident Definitions"
+    }
+  ],
   "/rival-ai-incident-definitions/definitions/": [
     {
       "slug": "/crosswalk/",
       "title": "Crosswalk"
     },
     {
-      "slug": "/index/",
-      "title": "Rival AI-Incident Definitions"
+      "slug": "/foundations/aviation/",
+      "title": "Aviation"
+    },
+    {
+      "slug": "/foundations/cybersecurity/",
+      "title": "Cybersecurity"
+    },
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    },
+    {
+      "slug": "/foundations/medical-devices/",
+      "title": "Medical Devices"
+    },
+    {
+      "slug": "/foundations/nuclear-safety/",
+      "title": "Nuclear Safety"
+    },
+    {
+      "slug": "/foundations/patient-safety/",
+      "title": "Patient Safety"
+    },
+    {
+      "slug": "/foundations/pharmacovigilance/",
+      "title": "Pharmacovigilance"
+    },
+    {
+      "slug": "/foundations/process-safety/",
+      "title": "Process Safety"
+    },
+    {
+      "slug": "/foundations/public-health/",
+      "title": "Public-Health Case Definitions"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
     }
   ],
   "/rival-ai-incident-definitions/definitions/oecd/": [
@@ -17,42 +71,202 @@
     {
       "slug": "/definitions/",
       "title": "Definitions"
+    },
+    {
+      "slug": "/foundations/aviation/",
+      "title": "Aviation"
+    },
+    {
+      "slug": "/foundations/cybersecurity/",
+      "title": "Cybersecurity"
+    },
+    {
+      "slug": "/foundations/medical-devices/",
+      "title": "Medical Devices"
+    },
+    {
+      "slug": "/foundations/nuclear-safety/",
+      "title": "Nuclear Safety"
+    },
+    {
+      "slug": "/foundations/patient-safety/",
+      "title": "Patient Safety"
+    },
+    {
+      "slug": "/foundations/pharmacovigilance/",
+      "title": "Pharmacovigilance"
+    },
+    {
+      "slug": "/foundations/process-safety/",
+      "title": "Process Safety"
+    },
+    {
+      "slug": "/glossary/",
+      "title": "Glossary"
     }
   ],
   "/rival-ai-incident-definitions/definitions/eu-ai-act/": [
     {
       "slug": "/definitions/",
       "title": "Definitions"
-    }
-  ],
-  "/rival-ai-incident-definitions/definitions/cset/": [
+    },
     {
-      "slug": "/definitions/",
-      "title": "Definitions"
+      "slug": "/foundations/medical-devices/",
+      "title": "Medical Devices"
+    },
+    {
+      "slug": "/foundations/nuclear-safety/",
+      "title": "Nuclear Safety"
+    },
+    {
+      "slug": "/foundations/public-health/",
+      "title": "Public-Health Case Definitions"
+    },
+    {
+      "slug": "/glossary/",
+      "title": "Glossary"
     }
   ],
   "/rival-ai-incident-definitions/definitions/aiid/": [
     {
       "slug": "/definitions/",
       "title": "Definitions"
+    },
+    {
+      "slug": "/foundations/aviation/",
+      "title": "Aviation"
+    },
+    {
+      "slug": "/foundations/cybersecurity/",
+      "title": "Cybersecurity"
+    },
+    {
+      "slug": "/foundations/medical-devices/",
+      "title": "Medical Devices"
+    },
+    {
+      "slug": "/foundations/patient-safety/",
+      "title": "Patient Safety"
+    },
+    {
+      "slug": "/foundations/pharmacovigilance/",
+      "title": "Pharmacovigilance"
+    },
+    {
+      "slug": "/foundations/process-safety/",
+      "title": "Process Safety"
+    },
+    {
+      "slug": "/foundations/public-health/",
+      "title": "Public-Health Case Definitions"
+    },
+    {
+      "slug": "/glossary/",
+      "title": "Glossary"
     }
   ],
-  "/rival-ai-incident-definitions/foundations/": [
+  "/rival-ai-incident-definitions/definitions/cset/": [
     {
-      "slug": "/index/",
-      "title": "Rival AI-Incident Definitions"
+      "slug": "/definitions/",
+      "title": "Definitions"
+    },
+    {
+      "slug": "/foundations/aviation/",
+      "title": "Aviation"
+    },
+    {
+      "slug": "/foundations/nuclear-safety/",
+      "title": "Nuclear Safety"
+    },
+    {
+      "slug": "/foundations/patient-safety/",
+      "title": "Patient Safety"
+    },
+    {
+      "slug": "/foundations/pharmacovigilance/",
+      "title": "Pharmacovigilance"
+    },
+    {
+      "slug": "/foundations/public-health/",
+      "title": "Public-Health Case Definitions"
+    },
+    {
+      "slug": "/glossary/",
+      "title": "Glossary"
     }
   ],
-  "/rival-ai-incident-definitions/crosswalk/": [
+  "/rival-ai-incident-definitions/foundations/aviation/": [
     {
-      "slug": "/index/",
-      "title": "Rival AI-Incident Definitions"
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    }
+  ],
+  "/rival-ai-incident-definitions/foundations/medical-devices/": [
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    }
+  ],
+  "/rival-ai-incident-definitions/foundations/pharmacovigilance/": [
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    }
+  ],
+  "/rival-ai-incident-definitions/foundations/patient-safety/": [
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    }
+  ],
+  "/rival-ai-incident-definitions/foundations/nuclear-safety/": [
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    }
+  ],
+  "/rival-ai-incident-definitions/foundations/cybersecurity/": [
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    }
+  ],
+  "/rival-ai-incident-definitions/foundations/process-safety/": [
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    }
+  ],
+  "/rival-ai-incident-definitions/foundations/public-health/": [
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    }
+  ],
+  "/rival-ai-incident-definitions/glossary/": [
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
+      "slug": "/readings/",
+      "title": "Readings"
     }
   ],
   "/rival-ai-incident-definitions/readings/": [
     {
-      "slug": "/index/",
-      "title": "Rival AI-Incident Definitions"
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
+      "slug": "/glossary/",
+      "title": "Glossary"
+    }
+  ],
+  "/rival-ai-incident-definitions/foundations/": [
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
     }
   ]
 }

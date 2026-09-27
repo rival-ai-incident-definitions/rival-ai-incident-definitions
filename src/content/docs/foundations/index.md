@@ -1,9 +1,26 @@
 ---
 title: Theoretical Foundations
+description: How mature incident-reporting fields decide what counts as an incident, compared on the rows used for the AI-incident definitions.
+tableOfContents: false
 ---
 
-How mature incident-reporting systems decide what counts, with one page per field: what the system records, its definitions quoted from the primary text, and the reading of the AI-incident definitions it bears on.
+AI incident reporting is new, and its published definitions disagree on questions that older safety fields have had to settle for decades: whether an event that nearly caused harm counts, how much a system must have contributed to a harm before the event is recorded against it, and what to write down when the facts are uncertain. Those fields have working answers, so when an AI definition can be read two ways, the reading that matches a mature field's practice has a precedent behind it and the other does not.
 
-:::caution[Draft]
-Planned pages: medical devices, patient safety, pharmacovigilance, aviation, nuclear safety, process safety, safety engineering, cybersecurity, public-health case definitions, disaster databases, legal causation, accident investigation, epidemiological causation, measurement validity, and robustness across analytic choices. None is written yet.
-:::
+Mature incident-reporting systems in aviation, medicine, nuclear power, cybersecurity, chemical processing and public health record, as separate entries, whether harm occurred, whether the event was a near miss, what part the system played, and how certain the classification is. The AI-incident definitions compared on this site mostly put the same event under one label, incident or not. Each page below quotes a field's primary texts on those entries, so that a reading of an AI definition can point to a field that already works that way.
+
+The table uses the rows of the [Definitions](/rival-ai-incident-definitions/definitions/) page. Each cell is a summary; the quotation behind it is on the field's page. "Not yet sourced" means no primary text quoted on the page settles the cell.
+
+| Field | Harm must have occurred | Near miss | Seriousness threshold | Causal role | Rule for uncertain cases |
+|---|---|---|---|---|---|
+| [Aviation](/rival-ai-incident-definitions/foundations/aviation/) | No | Separate term (serious incident) | Tiered | Separate field, no fault | Stated ("unknown" value) |
+| [Medical devices](/rival-ai-incident-definitions/foundations/medical-devices/) | No | Included in serious incident | Required | Cannot be excluded | Stated (report anyway) |
+| [Pharmacovigilance](/rival-ai-incident-definitions/foundations/pharmacovigilance/) | Yes | Not yet sourced | Required | Separate term, graded | Stated (graded, "Unclassifiable") |
+| [Patient safety](/rival-ai-incident-definitions/foundations/patient-safety/) | No | Separate class | None | Separate class | Death only |
+| [Nuclear safety](/rival-ai-incident-definitions/foundations/nuclear-safety/) | No | Included, capped | Graded | Not yet sourced | Stated (provisional rating) |
+| [Cybersecurity](/rival-ai-incident-definitions/foundations/cybersecurity/) | No | Included (imminent threat) | None | Separate analysis | Judgment |
+| [Process safety](/rival-ai-incident-definitions/foundations/process-safety/) | Investigation: no; history: yes | Included | Required | Separate field | Stated ("if known") |
+| [Public-health case definitions](/rival-ai-incident-definitions/foundations/public-health/) | Yes | Not yet sourced | Not yet sourced | Separate criterion | Stated (suspected, probable, confirmed) |
+
+Six of the eight fields count, in at least one of their records, an event in which no harm occurred. The seven fields whose causal rule is sourced all record the system's causal role as an entry of its own. Six fields state a general rule for uncertain cases, and all six keep the uncertainty in the record: as an "unknown" value, a grade, a provisional status, a field filled "if known", or a report filed in doubt.
+
+Each page follows the same order: the fields the system records, its definitions quoted, how it separates harm that occurred from near misses and hazards, how it records causal role, how it handles uncertain cases, and which reading of the AI-incident definitions it bears on.

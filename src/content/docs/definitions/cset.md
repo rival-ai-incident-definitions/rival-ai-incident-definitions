@@ -11,11 +11,11 @@ The Center for Security and Emerging Technology (CSET) coded AI Incident Databas
 
 > A Special Interest Intangible AI Harm occurs when 1) a characterizable class or subgroup of entities 2) experiences or has a risk of experiencing a designated intangible harm that 3) can be directly linked to the consequences of 4) an AI’s behavior. In reference to #2 above, CSET has designated three categories of intangible harm: a) harm to civil liberties, civil rights, human rights, or democratic norms, b) detrimental content (misinformation, hate-speech, etc), and c) differential treatment based upon a protected characteristic.
 
-| element | tangible harm event | special interest intangible harm |
+| Element | Tangible harm event | Special interest intangible harm |
 |---|---|---|
-| who is harmed | "a potentially identifiable, specific entity" | "a characterizable class or subgroup of entities" |
+| Who is harmed | "a potentially identifiable, specific entity" | "a characterizable class or subgroup of entities" |
 | AI involvement | "can be directly linked to a consequence of" | "can be directly linked to the consequences of" |
-| harm that did not occur | separate levels (below) | included: "experiences or has a risk of experiencing" |
+| Harm that did not occur | Separate levels (below) | Included: "experiences or has a risk of experiencing" |
 
 ## Levels of harm
 

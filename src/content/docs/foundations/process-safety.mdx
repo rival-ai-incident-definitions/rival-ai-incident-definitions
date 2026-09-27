@@ -1,0 +1,90 @@
+---
+title: Process Safety
+description: How chemical process-safety rules separate incidents that must be investigated from accidents that must be reported, quoted from OSHA 29 CFR 1910.119, EPA 40 CFR Part 68 and the EU Seveso III Directive.
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+Process safety concerns fires, explosions and toxic releases at plants that handle hazardous chemicals. Three texts are quoted here. In the United States, the Occupational Safety and Health Administration (OSHA) rule 29 CFR 1910.119 of the Code of Federal Regulations (CFR) covers worker safety, and the Environmental Protection Agency (EPA) rule 40 CFR Part 68 covers the public and the environment. In the European Union (EU), Directive 2012/18/EU, known as Seveso III, covers major-accident hazards.
+
+| | Process safety |
+|---|---|
+| **Harm must have occurred** | <Badge text="investigation: no" variant="caution" /> <Badge text="accident history: yes" variant="success" /> |
+| **Near miss** | <Badge text="included" variant="caution" /> "could reasonably have resulted in" |
+| **Seriousness threshold** | <Badge text="required" variant="danger" /> a catastrophic release, or listed consequences |
+| **Causal role** | <Badge text="separate field" variant="note" /> contributing factors, "if known" |
+| **Rule for uncertain cases** | <Badge text="stated" variant="success" /> "if known"; update when facts change |
+
+Colors follow the [Definitions](/rival-ai-incident-definitions/definitions/) page: green where the field requires the narrow reading, amber where it admits more, red where it excludes or restricts, blue where it moves the case to a separate term.
+
+## Recorded fields
+
+The same rules keep two lists with different entry tests. An OSHA incident investigation report must contain, among other items, "The factors that contributed to the incident". The EPA five-year accident history records each qualifying release with a set of fields, including "Initiating event and contributing factors if known".
+
+| Record | Entry test | Causal field |
+|---|---|---|
+| OSHA incident investigation | harm or the reasonable possibility of it | "The factors that contributed to the incident" |
+| EPA five-year accident history | harm that occurred | "Initiating event and contributing factors if known" |
+| Seveso notification to the Commission | listed consequences, or a near miss of technical interest | "an analysis of the causes of the accidents" (Commission database) |
+
+## Definitions
+
+OSHA, 29 CFR 1910.119(b), catastrophic release:
+
+> means a major uncontrolled emission, fire, or explosion, involving one or more highly hazardous chemicals, that presents serious danger to employees in the workplace
+
+Seveso III, major accident:
+
+> ‘major accident’ means an occurrence such as a major emission, fire, or explosion resulting from uncontrolled developments in the course of the operation of any establishment covered by this Directive, and leading to serious danger to human health or the environment, immediate or delayed, inside or outside the establishment, and involving one or more dangerous substances
+
+The source text splits this definition at a hyphenated line break and across a column; its three parts are pinned separately and joined here.
+
+Seveso III also separates hazard from risk:
+
+> ‘hazard’ means the intrinsic property of a dangerous substance or physical situation, with a potential for creating damage to human health or the environment
+
+> ‘risk’ means the likelihood of a specific effect occurring within a specified period or in specified circumstances
+
+## Harm, near miss and hazard
+
+The investigation duty covers near misses by its wording. OSHA: "The employer shall investigate each incident which resulted in, or could reasonably have resulted in a catastrophic release of highly hazardous chemical in the workplace." Appendix C to the rule, which describes itself as "a nonmandatory guideline", names the class: "Some of the events are sometimes referred to as “near misses,” meaning that a serious consequence did not occur, but could have."
+
+The EPA accident history is narrower. It covers "all accidental releases from covered processes that resulted in deaths, injuries, or significant property damage on site, or known offsite deaths, injuries, evacuations, sheltering in place, property damage, or environmental damage".
+
+Seveso III sets numeric criteria for notifying a major accident to the European Commission (Annex VI), such as "a death;" or "six persons injured within the establishment and hospitalised for at least 24 hours". Near misses have their own clause: "Accidents or ‘near misses’ which Member States regard as being of particular technical interest for preventing major accidents and limiting their consequences and which do not meet the quantitative criteria above should be notified to the Commission."
+
+| Class | Harm required | Source |
+|---|---|---|
+| Hazard | no; a property of a substance or situation | Seveso III |
+| Incident for investigation | no; "could reasonably have resulted in" | OSHA |
+| Near miss for notification | no; "of particular technical interest" | Seveso III |
+| Accident for the history or notification | yes | EPA, Seveso III |
+
+## Causal role
+
+Each record holds causes as a field of its own, filled after the event is classified. OSHA requires "The factors that contributed to the incident". The EPA history records "Initiating event and contributing factors if known". The EU Commission's database holds "an analysis of the causes of the accidents". OSHA's appendix separates cause from fault: "The focus of the investigation should be to obtain facts, and not to place blame."
+
+## Uncertain cases
+
+The EPA field carries its own qualifier, "if known", so a release enters the history even when its cause is not established. Seveso III requires operators to "update the information provided if further investigation reveals additional facts which alter that information or the conclusions drawn".
+
+## Bearing on AI-incident definitions
+
+**Two lists with two tests.** Process safety keeps one list for investigation, with a counterfactual entry test, and one accident history, with an outcome test. The Organisation for Economic Co-operation and Development (OECD) separates the two by name, incident and hazard, with the hazard an event that "could plausibly lead to an AI incident". The AI Incident Database (AIID) keeps one list with the broad test: "an alleged harm or near harm event to people, property, or the environment where an AI system is implicated".
+
+**Seriousness.** Seveso III states numeric thresholds. The OECD declines to: "Assessing the seriousness of an AI incident is highly context-dependent; each jurisdiction may define it differently".
+
+**Causal role.** The field "contributing factors if known" records a cause without making it a condition of entry. The AIID editors' guide puts the causal test at entry: the AI system "should at least be a “but-for” cause".
+
+See [OECD](/rival-ai-incident-definitions/definitions/oecd/) and [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/).
+
+## Sources
+
+| Source | Status | Used for |
+|---|---|---|
+| [29 CFR 1910.119](https://www.govinfo.gov/content/pkg/CFR-2024-title29-vol5/xml/CFR-2024-title29-vol5-sec1910-119.xml), 2024 edition | verified | catastrophic release, incident investigation, near misses |
+| [40 CFR Part 68](https://www.govinfo.gov/content/pkg/CFR-2024-title40-vol17/xml/CFR-2024-title40-vol17-part68.xml), 2024 edition | verified | five-year accident history, contributing factors |
+| [Directive 2012/18/EU (Seveso III)](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0018) | verified | major accident, hazard, risk, Annex VI, updates |
+| Industry process-safety guidelines (for example, on near-miss programs) | not retrieved | no open primary text on the permitted hosts |
+
+Every quotation on this page is pinned in the study repository under `claims/foundations/` (`osha2024cfr1910119`, `epa2024cfr68`, `eu2012seveso`, `oecd2024defining`, `aiid2026editors`) and passes `citations verify`.

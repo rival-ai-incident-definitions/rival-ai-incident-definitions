@@ -1,0 +1,99 @@
+---
+title: Aviation
+description: How European Union civil aviation separates occurrences, incidents, serious incidents and accidents, quoted from Regulations (EU) No 996/2010 and No 376/2014.
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+European Union (EU) civil aviation uses two regulations. Regulation (EU) No 996/2010 governs accident investigation and defines an accident, a serious incident and an incident. Regulation (EU) No 376/2014 governs occurrence reporting and defines an occurrence, the class every report falls under. The page also draws on a publication of the National Aeronautics and Space Administration (NASA) Aviation Safety Reporting System (ASRS), a voluntary reporting system.
+
+| | Aviation (EU) |
+|---|---|
+| **Harm must have occurred** | <Badge text="no" variant="caution" /> an occurrence includes events that "could endanger" |
+| **Near miss** | <Badge text="separate term" variant="note" /> serious incident: "a high probability of an accident" |
+| **Seriousness threshold** | <Badge text="tiered" variant="note" /> accident, serious incident, incident |
+| **Causal role** | <Badge text="separate field" variant="note" /> causes are recorded and carry no fault |
+| **Rule for uncertain cases** | <Badge text="stated" variant="success" /> a field may read "unknown" and is completed later |
+
+Colors follow the [Definitions](/rival-ai-incident-definitions/definitions/) page: green where the field requires the narrow reading, amber where it admits more, red where it excludes or restricts, blue where it moves the case to a separate term.
+
+## Recorded fields
+
+Regulation 376/2014 sets the minimum content of an occurrence report in its Annex I. Among the common mandatory fields are an "Occurrence Class" and a "(8) Risk classification". Article 7 repeats the second requirement: reports "shall include a safety risk classification for the occurrence concerned".
+
+An occurrence report therefore carries the kind of event and an assessment of its risk as two fields. A report of an event that caused no harm still has a risk classification.
+
+## Definitions
+
+Regulation 376/2014, Article 2:
+
+> ‘occurrence’ means any safety-related event which endangers or which, if not corrected or addressed, could endanger an aircraft, its occupants or any other person and includes in particular an accident or serious incident
+
+> ‘hazard’ means a situation or an object with the potential to cause death or injury to a person
+
+Regulation 996/2010, Article 2:
+
+> ‘incident’ means an occurrence, other than an accident, associated with the operation of an aircraft which affects or could affect the safety of operation
+
+> ‘serious incident’ means an incident involving circumstances indicating that there was a high probability of an accident
+
+The source text hyphenates "circumstances" across a line; the two halves are pinned separately and joined here.
+
+The accident definition is long and its layout in the source splits it into fragments. It opens "‘accident’ means an occurrence associated with the" "operation of an aircraft which, in the case of a manned" aircraft, and requires one of three outcomes:
+
+| Accident outcome | Quoted text |
+|---|---|
+| Injury | "a person is fatally or seriously injured as a result of:" |
+| Damage | "the aircraft sustains damage or structural failure which" (qualifying conditions follow) |
+| Loss | "the aircraft is missing or is completely inaccessible" |
+
+## Harm, near miss and hazard
+
+Aviation keeps four terms apart. An accident requires an outcome from the table above. A serious incident is an incident with "a high probability of an accident": the near miss. An incident is an occurrence that "affects or could affect the safety of operation". A hazard is a standing condition, "a situation or an object with the potential to cause death or injury to a person", and needs no event at all.
+
+| Term | What must have happened |
+|---|---|
+| Hazard | nothing; a situation or object with potential for harm |
+| Incident | an occurrence that affects or could affect safety |
+| Serious incident | an incident with a high probability of an accident |
+| Accident | injury, damage or loss, as tabled above |
+
+The Annex to Regulation 996/2010 lists examples of serious incidents, including "a near collision requiring an avoidance manoeuvre to avoid a collision or an unsafe situation" and "controlled flight into terrain only marginally avoided". The Annex states: "The incidents listed are typical examples of incidents that are likely to be serious incidents. The list is not exhaustive".
+
+Occurrence reporting spans the whole range. Article 5 has organizations pass on voluntary reports "which may involve an actual or potential aviation safety risk".
+
+## Causal role
+
+Regulation 996/2010 defines causes as a term of its own: "‘causes’ means actions, omissions, events, conditions, or a" "combination thereof, which led to the accident or incident". It adds that "the identification of causes does not imply the assignment of fault or the determination of administrative, civil or criminal liability". A safety investigation includes "the determination of cause(s) and/or contributing" factors.
+
+The incident definition itself asks only that the occurrence be "associated with the operation of an aircraft". Classifying an event and establishing its causes are separate steps, and the second comes from an investigation.
+
+Regulation 376/2014 states its purpose in the same terms: "The sole objective of occurrence reporting is the prevention of accidents and incidents and not to attribute blame or liability". The ASRS publication makes the case for voluntary reporting on the ground that "There is no substitute for knowing why a system failed or why a human erred", and states that "A properly structured confidential, voluntary, non-punitive incident reporting system can be used by any person to share this information". Its protections exclude some events: "In certain systems, such as the ASRS, this exclusion extends to legally defined accidents".
+
+## Uncertain cases
+
+Annex I of Regulation 376/2014 allows a missing value to be recorded as missing. Where information has not been provided, "the data field may be completed with the value ‘unknown’". The same note limits it: "use of that ‘unknown’ value should, to the best extent possible, be avoided, and the report should, where possible, be completed with the information later".
+
+A record can therefore stand with an explicit unknown in one field and be completed later. Whether an event was a serious incident is guided by the Annex examples, which are "typical examples" and not a closed list.
+
+## Bearing on AI-incident definitions
+
+**Near miss.** The Organisation for Economic Co-operation and Development (OECD) places near misses under its AI hazard: "Near misses are events that could have led to an AI incident and are therefore included under this definition of AI hazards". Aviation places the near miss inside the incident class, as a serious incident, and keeps "hazard" for a standing condition. An AI near miss read the aviation way is an incident of a lower tier; read the OECD way it is a hazard. The two readings count different events as incidents. The Center for Security and Emerging Technology (CSET) taxonomy comes closer to aviation, with a level for "an imminent risk of harm". The AI Incident Database (AIID) pools the two: "an alleged harm or near harm event to people, property, or the environment where an AI system is implicated".
+
+**Causal role.** Aviation classifies on association ("associated with the operation of an aircraft") and settles causes by investigation. AIID asks editors for a stronger link at classification time: the AI system "should at least be a “but-for” cause".
+
+**Uncertain cases.** Aviation records "unknown" as a value. CSET resolves doubt downward: coders "err on the side of classifying the account as an issue or the lowest clearly known level of harm category". The two rules differ in whether uncertainty is kept or absorbed into a category.
+
+See [OECD](/rival-ai-incident-definitions/definitions/oecd/), [CSET](/rival-ai-incident-definitions/definitions/cset/) and [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/).
+
+## Sources
+
+| Source | Status | Used for |
+|---|---|---|
+| [Regulation (EU) No 996/2010](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32010R0996), accident investigation | verified | accident, incident, serious incident, causes |
+| [Regulation (EU) No 376/2014](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0376), occurrence reporting | verified | occurrence, hazard, report fields, "unknown" value |
+| [ASRS: The Case for Confidential Incident Reporting Systems](https://asrs.arc.nasa.gov/docs/rs/60_Case_for_Confidential_Incident_Reporting.pdf), NASA ASRS Publication 60 | verified | voluntary, non-punitive reporting |
+| Annex 13 to the Convention on International Civil Aviation, International Civil Aviation Organization (ICAO) | not retrieved | no public agency copy was found |
+| European common risk classification scheme | not retrieved | the scheme Article 7 of Regulation 376/2014 requires |
+
+Every quotation on this page is pinned in the study repository under `claims/foundations/` (`eu2010aviation`, `eu2014occurrence`, `nasa2001asrs`, `oecd2024defining`, `cset2023guide`, `aiid2026editors`) and passes `citations verify`.

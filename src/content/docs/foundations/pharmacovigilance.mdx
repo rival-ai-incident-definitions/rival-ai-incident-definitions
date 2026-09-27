@@ -1,0 +1,104 @@
+---
+title: Pharmacovigilance
+description: How drug-safety reporting separates an adverse event from an adverse drug reaction, defines seriousness, and grades causality, quoted from ICH E2A and the WHO-UMC causality system.
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+Pharmacovigilance is the monitoring of medicines for harm. Two texts are quoted here. ICH E2A, a guideline of the International Council for Harmonisation (ICH) dated 27 October 1994, defines the adverse event, the adverse drug reaction and seriousness for clinical safety reporting. The World Health Organization (WHO) and the Uppsala Monitoring Centre (UMC) publish the WHO-UMC system for grading how likely a drug caused a reported event.
+
+| | Pharmacovigilance |
+|---|---|
+| **Harm must have occurred** | <Badge text="yes" variant="success" /> "Any untoward medical occurrence" |
+| **Near miss** | <Badge text="not yet sourced" variant="default" /> |
+| **Seriousness threshold** | <Badge text="required" variant="danger" /> for expedited reporting; five outcome criteria |
+| **Causal role** | <Badge text="separate term" variant="note" /> adverse event needs none; adverse drug reaction needs "a reasonable possibility" |
+| **Rule for uncertain cases** | <Badge text="stated" variant="success" /> graded causality with "Unclassifiable" as a verdict |
+
+Colors follow the [Definitions](/rival-ai-incident-definitions/definitions/) page: green where the field requires the narrow reading, amber where it admits more, red where it excludes or restricts, blue where it moves the case to a separate term.
+
+## Recorded fields
+
+ICH E2A sets the minimum content of a report that can be filed before the case is fully understood: "an identifiable patient; a suspect medicinal product; an identifiable reporting source; and an event or outcome that can be identified as serious and unexpected".
+
+| Field | What it holds |
+|---|---|
+| Patient | an identifiable patient |
+| Product | a suspect medicinal product |
+| Reporter | an identifiable reporting source |
+| Event | an event or outcome, with its seriousness and expectedness |
+| Causality | a separate judgment, graded (see below) |
+
+The event and the product's causal role are separate entries. An event can be an adverse event without being an adverse drug reaction.
+
+## Definitions
+
+ICH E2A, adverse event:
+
+> Any untoward medical occurrence in a patient or clinical investigation subject administered a pharmaceutical product and which does not necessarily have to have a causal relationship with this treatment
+
+ICH E2A, adverse drug reaction, the causal part of the definition:
+
+> a causal relationship between a medicinal product and an adverse event is at least a reasonable possibility, i.e., the relationship cannot be ruled out
+
+ICH E2A, seriousness:
+
+> A serious adverse event (experience) or reaction is any untoward medical occurrence that at any dose:
+
+| Criterion | Quoted text |
+|---|---|
+| Death | "results in death," |
+| Threat to life | "is life-threatening," |
+| Hospital stay | "requires inpatient hospitalisation or prolongation of existing hospitalisation" |
+| Disability | "results in persistent or significant disability/incapacity, or" |
+| Birth defect | "is a congenital anomaly/birth defect" |
+
+E2A separates seriousness from intensity: "Seriousness (not severity) serves as a guide for defining regulatory reporting obligations". It extends seriousness by judgment to important medical events that "may require intervention to prevent one of the other outcomes listed in the definition above".
+
+## Harm, near miss and hazard
+
+Every term above starts from an occurrence in a patient. The adverse event is "Any untoward medical occurrence", so something must have happened to someone.
+
+E2A closes the counterfactual reading of its own threat-to-life criterion. The term "life-threatening" "refers to an event in which the patient was at risk of death at the time of the event; it does not refer to an event which hypothetically might have caused death if it were more severe".
+
+Neither text defines a near miss. Guidance on medication errors, where a dispensing error caught before the drug was given would be recorded, was not retrieved.
+
+## Causal role
+
+Pharmacovigilance records causality as its own field, with its own scale. The adverse event "does not necessarily have to have a causal relationship with this treatment". The adverse drug reaction requires "at least a reasonable possibility". E2A notes that "there is currently no standard international nomenclature" for degrees of causality. For marketed drugs it records a default: "adverse event reports associated with marketed drugs (spontaneous reports) usually imply causality".
+
+The WHO-UMC system supplies graded categories. Its opening states the problem: "In practice few adverse reactions are ‘certain’ or ‘unlikely’; most are somewhere in between these extremes, i.e. ‘possible’ or ‘probable’". The "possible" grade applies where the event "Could also be explained by disease or other drugs".
+
+## Uncertain cases
+
+Both texts keep uncertainty in the record. E2A lets a report go in on the minimum fields, and "Follow-up information should be actively sought and submitted as it becomes available".
+
+The WHO-UMC system has two verdicts for cases it cannot grade:
+
+| Verdict | When it applies |
+|---|---|
+| Conditional / Unclassified | "is of a preliminary nature and is appropriate when, for a proper assessment, there is more data needed and such data are being sought, or are already under examination" |
+| Unassessable / Unclassifiable | "when the information in a report is incomplete or contradictory and cannot be complemented or verified, the verdict is ‘Unclassifiable’" |
+
+The first is a pending state and the second a final one. The system lists among the things causality assessment cannot do: "Change uncertainty into certainty".
+
+## Bearing on AI-incident definitions
+
+**Harm and causality as two fields.** Pharmacovigilance records the event first and the product's role second. The AI Incident Database (AIID) folds both into one test, "an alleged harm or near harm event to people, property, or the environment where an AI system is implicated". The Center for Security and Emerging Technology (CSET) requires occurrence for tangible harm: "the harm needs to have definitely occurred". A pharmacovigilance-style reading of either definition would code the harm and the AI system's role separately and grade the second.
+
+**Seriousness.** E2A defines seriousness by outcome and bars the hypothetical reading. The Organisation for Economic Co-operation and Development (OECD) leaves seriousness open: "Assessing the seriousness of an AI incident is highly context-dependent; each jurisdiction may define it differently".
+
+**Uncertain cases.** The WHO-UMC verdicts are a precedent for a third value alongside yes and no, kept in the record instead of resolved by a default. CSET resolves doubt to "the lowest clearly known level of harm category"; AIID editors use "their best judgment, erring on the side of finding harm when there is a plausible argument that harm occurred".
+
+See [CSET](/rival-ai-incident-definitions/definitions/cset/), [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/) and [OECD](/rival-ai-incident-definitions/definitions/oecd/).
+
+## Sources
+
+| Source | Status | Used for |
+|---|---|---|
+| [ICH E2A, Clinical Safety Data Management: Definitions and Standards for Expedited Reporting](https://database.ich.org/sites/default/files/E2A_Guideline.pdf) | verified | adverse event, adverse drug reaction, seriousness, minimum report |
+| [The use of the WHO-UMC system for standardised case causality assessment](https://www.who.int/docs/default-source/medicines/pharmacovigilance/whocausality-assessment.pdf) | verified | causality grades, unclassifiable cases |
+| ICH E2D, post-approval safety data management | not retrieved | post-marketing definitions |
+| Medication-error and near-miss reporting guidance | not retrieved | near miss |
+
+Every quotation on this page is pinned in the study repository under `claims/foundations/` (`ich1994e2a`, `whoumc_causality`, `aiid2026editors`, `cset2023guide`, `oecd2024defining`) and passes `citations verify`.

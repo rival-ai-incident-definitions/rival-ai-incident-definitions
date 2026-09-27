@@ -1,0 +1,93 @@
+---
+title: Medical Devices
+description: How medical-device vigilance separates an incident from a serious incident and records a device's causal role, quoted from the EU Medical Device Regulation, its MDCG guidance, and 21 CFR Part 803.
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+Two regimes are quoted here. In the European Union (EU), Regulation (EU) 2017/745, the Medical Device Regulation (MDR), defines an incident and a serious incident, and guidance MDCG 2023-3 Rev.2 from the Medical Device Coordination Group (MDCG) sets out how manufacturers apply the definitions. In the United States, 21 CFR Part 803 of the Code of Federal Regulations (CFR) sets the Food and Drug Administration (FDA) rules for medical device reporting (in FDA usage, MDR stands for medical device report).
+
+| | Medical devices |
+|---|---|
+| **Harm must have occurred** | <Badge text="no" variant="caution" /> "led, might have led or might lead to" |
+| **Near miss** | <Badge text="included" variant="caution" /> judged as if "the circumstances were less favourable" |
+| **Seriousness threshold** | <Badge text="required" variant="danger" /> death, serious deterioration of health, serious public health threat |
+| **Causal role** | <Badge text="separate criterion" variant="note" /> the device "cannot reasonably be excluded as a contributory cause" |
+| **Rule for uncertain cases** | <Badge text="stated" variant="success" /> report anyway |
+
+Colors follow the [Definitions](/rival-ai-incident-definitions/definitions/) page: green where the field requires the narrow reading, amber where it admits more, red where it excludes or restricts, blue where it moves the case to a separate term.
+
+## Recorded fields
+
+The EU guidance splits a reportable case into three criteria that are assessed one at a time: "Any incident which meets all three basic reporting criteria A – C listed below is considered to be a serious incident and must be reported to the relevant competent authority".
+
+| Criterion | What is recorded | Quoted text |
+|---|---|---|
+| A | that an incident occurred | "an incident (Article 2(64) MDR/Article 2(67) IVDR) has occurred" |
+| B | the outcome, actual or potential | defined through Article 2(65), below |
+| C | the device's causal role | "a causal relationship between the serious incident and the manufacturer's device has been established, is reasonably possible or is suspected" |
+
+The occurrence of an event, its outcome and the device's part in it are three entries. A manufacturer's investigation can later close a report as "Final, (Non-reportable incident)".
+
+## Definitions
+
+MDR, Article 2:
+
+> ‘incident’ means any malfunction or deterioration in the characteristics or performance of a device made available on the market, including use-error due to ergonomic features, as well as any inadequacy in the information supplied by the manufacturer and any undesirable side-effect
+
+> ‘serious incident’ means any incident that directly or indirectly led, might have led or might lead to any of the following:
+
+| Limb | Outcome |
+|---|---|
+| (a) | "the death of a patient, user or other person" |
+| (b) | "the temporary or permanent serious deterioration of a patient's, user's or other person's state of health" |
+| (c) | "(c) a serious public health threat;" |
+
+21 CFR 803.3 defines the causal term:
+
+> Caused or contributed means that a death or serious injury was or may have been attributed to a medical device, or that a medical device was or may have been a factor in a death or serious injury
+
+## Harm, near miss and hazard
+
+An incident in the MDR is a fault in the device or its information. It requires no harm. A serious incident adds an outcome, and the outcome may be one that "led, might have led or might lead to" death or serious harm. The near miss is therefore inside the serious-incident class.
+
+The MDCG guidance makes the counterfactual explicit. A manufacturer that finds an incident not serious "must still investigate whether it directly or indirectly might lead to/might have led to, any of the outcomes" "if the circumstances were less favourable (for instance, without the performance of an intervention by a third party or if there was exposure of more vulnerable patients to the same situation, etc.)". "If the manufacturer cannot exclude that the incident could potentially have led to the outcomes", then "the incident must be considered serious and reported to the relevant competent authority".
+
+FDA rules do the same for malfunctions. A manufacturer reports a device that "Has malfunctioned and that the device or a similar device marketed by the manufacturer or importer would be likely to cause or contribute to a death or serious injury if the malfunction were to recur".
+
+The hazard sits outside the incident classes. Risk without an event is handled through the field safety corrective action, "corrective action taken by a manufacturer for technical or medical reasons to prevent or reduce the risk of a serious incident".
+
+## Causal role
+
+The EU test for the device's role is exclusion. A causal relationship is reasonably possible when "the device cannot reasonably be excluded as a contributory cause of the serious incident".
+
+The FDA test is attribution with the same allowance for doubt: a device "was or may have been a factor". The definition goes on to a list of failure types, "including events occurring as a result of:". Any information may trigger a report: "Any information, including professional, scientific, or medical facts, observations, or opinions, may reasonably suggest that a device has caused or may have caused or contributed to an MDR reportable event".
+
+A report is kept apart from a finding of fault. Under 21 CFR 803.16 a report "is not necessarily an admission that the device, or you or your employees, caused or contributed to the reportable event".
+
+## Uncertain cases
+
+The MDR states the rule directly: "If, after becoming aware of a potentially reportable incident, the manufacturer is uncertain about whether the incident is reportable, it shall nevertheless submit a report". Timing is handled the same way: "the manufacturer may submit an initial report that is incomplete followed up by a complete report".
+
+Doubt therefore resolves toward reporting. The record is corrected afterwards, and a report can end as "Final, (Non-reportable incident)".
+
+## Bearing on AI-incident definitions
+
+**Near miss and harm.** The EU AI Act uses the same causal phrase, "directly or indirectly", with no counterfactual. Its serious incident is "an incident or malfunctioning of an AI system that directly or indirectly leads to any of the following:", where the MDR reads "led, might have led or might lead to". Under the device reading, an AI malfunction that could have killed someone is a serious incident; under the AI Act wording it is not. The Organisation for Economic Co-operation and Development (OECD) definition takes the AI Act's side and moves such cases to its AI hazard, an event that "could plausibly lead to an AI incident".
+
+**Causal role.** The MDCG exclusion test ("cannot reasonably be excluded as a contributory cause") is weaker than the requirement of the AI Incident Database (AIID) editors that the AI system "should at least be a “but-for” cause". The AI Act's reporting clock starts "immediately after the provider has established a causal link between the AI system and the serious incident or the reasonable likelihood of such a link", a third wording.
+
+**Uncertain cases.** The MDR reports when in doubt. On timing, the AI Act provides that "the provider or, where applicable, the deployer, may submit an initial report that is incomplete, followed by a complete report", which matches the MDR's incomplete initial report.
+
+See [EU AI Act](/rival-ai-incident-definitions/definitions/eu-ai-act/), [OECD](/rival-ai-incident-definitions/definitions/oecd/) and [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/).
+
+## Sources
+
+| Source | Status | Used for |
+|---|---|---|
+| [Regulation (EU) 2017/745](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32017R0745), Medical Device Regulation | verified | incident, serious incident, uncertain reports |
+| [MDCG 2023-3 Rev.2](https://health.ec.europa.eu/document/download/af1433fd-ed64-4c53-abc7-612a7f16f976_en?filename=mdcg_2023-3_en.pdf), vigilance terms and concepts | verified | criteria A–C, counterfactual test, causal test |
+| [21 CFR Part 803](https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol8/xml/CFR-2024-title21-vol8-part803.xml), 2024 edition | verified | caused or contributed, malfunction reporting, no admission |
+| [Regulation (EU) 2024/1689](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689), AI Act | verified | comparison |
+
+Every quotation on this page is pinned in the study repository under `claims/foundations/` (`eu2017mdr`, `mdcg2023vigilance`, `fda2024cfr803`, `eu2024aiact`, `oecd2024defining`, `aiid2026editors`) and passes `citations verify`.

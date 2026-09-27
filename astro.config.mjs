@@ -54,7 +54,6 @@ export default defineConfig({
           label: 'Rival AI-Incident Definitions Framework',
           collapsed: false,
           items: [
-            { label: 'Theoretical Foundations', link: '/foundations/' },
             {
               label: '1. Definitions',
               collapsed: true,
@@ -68,6 +67,21 @@ export default defineConfig({
             },
             { label: '2. Crosswalk', link: '/crosswalk/' },
             { label: '3. Readings', link: '/readings/' },
+          ],
+        },
+        {
+          label: 'Theoretical Foundations',
+          collapsed: false,
+          items: [
+            { label: 'Overview', link: '/foundations/' },
+            { label: 'Aviation', link: '/foundations/aviation/' },
+            { label: 'Medical devices', link: '/foundations/medical-devices/' },
+            { label: 'Pharmacovigilance', link: '/foundations/pharmacovigilance/' },
+            { label: 'Patient safety', link: '/foundations/patient-safety/' },
+            { label: 'Nuclear safety', link: '/foundations/nuclear-safety/' },
+            { label: 'Cybersecurity', link: '/foundations/cybersecurity/' },
+            { label: 'Process safety', link: '/foundations/process-safety/' },
+            { label: 'Public-health case definitions', link: '/foundations/public-health/' },
           ],
         },
       ],

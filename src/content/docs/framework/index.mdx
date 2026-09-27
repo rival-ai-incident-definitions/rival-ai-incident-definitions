@@ -1,0 +1,80 @@
+---
+title: Framework Overview
+description: How the study compares published AI-incident definitions, with one constructed record walked through every step.
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+Every count of AI incidents rests on a definition, and the definitions disagree. The OECD counts an event that "directly or indirectly leads to" harm; CSET requires harm that "can be directly linked to" an AI's behavior; the AI Incident Database admits "an alleged harm or near harm event"; each is reasonable, and applied to the same incidents they count different ones, and a reported number carries the definition it was computed under without saying so.
+
+The framework makes that dependence visible: it takes each published definition, writes it as a rule on coded data, applies every defensible reading of it, and compares the rules on the same incidents, reporting which incidents each counts, where they part, and which of those results survive every reading, without ranking the definitions or saying which is correct.
+
+## Pipeline
+
+| Step | Name | Question |
+|---|---|---|
+| 1 | [Definitions](/rival-ai-incident-definitions/definitions/) | What does each source say counts? |
+| 2 | [Rules](/rival-ai-incident-definitions/glossary/#rule) | Which coded fields decide each clause? |
+| 3 | [Readings](/rival-ai-incident-definitions/readings/) | Where can a clause be read more than one way, and what supports each reading? |
+| 4 | [Three-state labels](/rival-ai-incident-definitions/glossary/#three-state) | For each incident: yes, no, or can't tell? |
+| 5 | [Crosswalk](/rival-ai-incident-definitions/crosswalk/) | Crossed on the same incidents, where do the rules disagree? |
+| 6 | Verdict | Does each result hold at the headline reading, across every reading, and at every [assignment](/rival-ai-incident-definitions/glossary/#assignment) of the can't-tell cases? |
+
+Steps 1–3 are fixed in writing before any rule is run. Steps 4–6 are computed.
+
+### Running Example: One Constructed Record
+
+A made-up incident, not taken from the data, with these CSET codes:
+
+| CSET field | Code |
+|---|---|
+| AI system involved | Yes |
+| Clear link to the technology | Yes |
+| Tangible harm | Imminent risk of harm (near miss) |
+| Rights violation | Maybe |
+| Detrimental content (misinformation, hate speech) | Yes |
+
+1. **Definitions.** CSET counts tangible harm events, near misses and issues, and special-interest intangible harms. The OECD counts incidents (harm occurred) and, separately, hazards (harm could plausibly occur).
+2. **Rules.** The OECD's clause (c), rights harms, is read from CSET's rights and content fields; its hazard class from CSET's near-miss and issue values.
+3. **Readings.** Clause (c) has a narrow reading (rights violations only) and a broad one (also harmful content, which the OECD's commentary includes).
+4. **Three-state labels.**
+
+| Rule | Narrow reading | Broad reading |
+|---|---|---|
+| CSET: any harm | <Badge text="yes" variant="success" /> | <Badge text="yes" variant="success" /> |
+| OECD incident | <Badge text="can't tell" variant="caution" /> rights violation is "maybe" | <Badge text="yes" variant="success" /> harmful content counts |
+| OECD incident or hazard | <Badge text="yes" variant="success" /> | <Badge text="yes" variant="success" /> |
+
+5. **Crosswalk.** On "any OECD event" the two definitions agree on this record. On "OECD incident" they agree under the broad reading and cannot be compared under the narrow one until the "maybe" resolves.
+6. **Verdict.** For this record, whether the OECD counts an *incident* depends on the reading and on one "maybe"; whether it counts *something* does not. Summed over all incidents, that is the difference between a result that holds at every reading and assignment and one that holds only on part of the tree.
+
+## Where Definitions Part
+
+Each row is a point where a definition can be read more than one way. The headline reading is chosen by a fixed rule: the reading the source's own text supports; where the source is silent, the most literal reading; where nothing decides, both.
+
+| Dimension | Readings | Headline | Basis |
+|---|---|---|---|
+| How close the harm came | Event; event or near miss; event, near miss or issue | Event, near miss or issue | CSET's three levels |
+| How CSET's harm is read | CSET's summary fields; the four-part definition element by element; the three intangible categories | Summary fields | CSET's guide |
+| OECD rights clause (c) | Narrow; middle; broad | Broad | The OECD's commentary |
+| OECD infrastructure clause (b) | Left out; access to services; infrastructure sectors | Infrastructure sectors | CSET's guide on sectors |
+| How involved the AI must be | Clear link; AI present | Clear link | CSET's but-for rule |
+| Risked intangible harm | An OECD incident; an OECD hazard | Both | No source decides |
+| What an OECD hazard includes | Near miss and issue; near miss only | Near miss and issue | The OECD's hazard text |
+
+Labels **S** (a source supports the reading), **J** (argued by the study) and **B** (a bound) are on each reading's page; see [Readings](/rival-ai-incident-definitions/readings/).
+
+## Theoretical Foundations
+
+Fields that have reported incidents for decades record harm, near miss, cause and certainty in separate fields where AI-incident definitions use one label. The [Theoretical Foundations](/rival-ai-incident-definitions/foundations/) pages describe each.
+
+| Field | What it separates |
+|---|---|
+| Aviation | Accidents, serious incidents and incidents |
+| Medical devices | Harm that occurred and malfunctions that could cause harm |
+| Pharmacovigilance | An adverse event and the strength of evidence that the product caused it |
+| Patient safety | Harm that reached a patient, harm that did not, and near misses |
+| Nuclear safety | Consequences and degraded safety barriers |
+| Cybersecurity | A weakness, its exploitation, and a compromise |
+| Process safety | Losses and failed or challenged barriers |
+| Public-health case definitions | Confirmed, probable and suspected cases |

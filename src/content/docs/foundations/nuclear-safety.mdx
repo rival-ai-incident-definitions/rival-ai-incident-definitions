@@ -1,0 +1,83 @@
+---
+title: Nuclear Safety
+description: How the IAEA International Nuclear and Radiological Event Scale rates events with and without actual consequences, and how US reactor notification rules count conditions that could have prevented a safety function.
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+Two texts are quoted here. The International Nuclear and Radiological Event Scale (INES) of the International Atomic Energy Agency (IAEA) rates the safety significance of events; its *User's Manual, 2008 Edition* is the source. In the United States, 10 CFR 50.72 of the Code of Federal Regulations (CFR) sets what operating reactors must report at once to the Nuclear Regulatory Commission (NRC).
+
+| | Nuclear safety |
+|---|---|
+| **Harm must have occurred** | <Badge text="no" variant="caution" /> events with "no actual consequences" are rated |
+| **Near miss** | <Badge text="included, capped" variant="caution" /> at most Level 3 |
+| **Seriousness threshold** | <Badge text="graded" variant="note" /> seven levels plus Below Scale/Level 0 |
+| **Causal role** | <Badge text="not yet sourced" variant="default" /> |
+| **Rule for uncertain cases** | <Badge text="stated" variant="success" /> provisional rating, then a final rating |
+
+Colors follow the [Definitions](/rival-ai-incident-definitions/definitions/) page: green where the field requires the narrow reading, amber where it admits more, red where it excludes or restricts, blue where it moves the case to a separate term.
+
+## Recorded fields
+
+INES rates each event against three areas and keeps the highest: "Events are considered in terms of their impact on three different areas: impact on people and the environment; impact on radiological barriers and controls at facilities; and impact on defence in depth." "The event rating is then the highest level from consideration of each of the three areas."
+
+The first two areas rate what the manual calls consequences: events rated on them "are described in this manual as events with “actual consequences.”" The third rates the rest.
+
+| Area | What it covers |
+|---|---|
+| People and the environment | actual consequences |
+| Radiological barriers and controls | actual consequences |
+| Defence in depth | "those events with no actual consequences, but where the measures put in place to prevent or cope with accidents did not operate as intended" |
+
+The manual limits what INES is for. "INES is a communication tool." "The communication of events and their INES ratings is not a formal reporting system."
+
+## Definitions
+
+> Events are classified on the scale at seven levels: Levels 4–7 are termed “accidents” and Levels 1–3 “incidents”. Events without safety significance are classified as “Below Scale/Level 0”.
+
+NRC, 10 CFR 50.72, two of the non-emergency reporting criteria:
+
+> Any event or condition that at the time of discovery could have prevented the fulfillment of the safety function of structures or systems
+
+> being in an unanalyzed condition that significantly degrades plant safety
+
+## Harm, near miss and hazard
+
+INES puts events without consequences on the same scale as events with them. The manual records the decision: "INES needed to cover not only actual consequences but also the potential consequences of events."
+
+Near misses fall under "defence in depth", with a ceiling: "Since these events only involve an increased likelihood of an accident, with no actual consequences, the maximum rating for such events is set at Level 3". A near miss can therefore be an "incident" on the scale and never an "accident".
+
+The NRC rule reaches further back, to conditions found before any event. A condition that "at the time of discovery could have prevented the fulfillment of the safety function" is reportable whether or not anything followed from it. This is the hazard, recorded as a reportable condition.
+
+## Causal role
+
+The INES rating combines three measures of impact, and none of the three areas is a cause. Underlying factors enter only as adjustments to the level. For additional factors, "covering as appropriate, common cause failure, issues with procedures and safety culture", "the criteria allow the rating to be increased by one level".
+
+The NRC event reports that carry cause, under 10 CFR 50.73, were not retrieved. The NRC guidance document NUREG-1022 is on disk, but its text layer is scanned in columns and could not be quoted. The causal-role cell reads "not yet sourced" for that reason.
+
+## Uncertain cases
+
+INES has a stated procedure for incomplete information: "where not all the details of the event are known early on, it is recommended that a provisional rating is issued based on the information that is available and the judgement of those understanding the nature of the event. Later on, a final rating should be communicated and any differences explained."
+
+The manual names where rating is least consistent: "it is difficult to ensure precise consistency in rating events at the boundary between Below scale/Level 0 and Level 1".
+
+## Bearing on AI-incident definitions
+
+**Near miss.** INES keeps near misses on its scale, below events with consequences. The Center for Security and Emerging Technology (CSET) taxonomy has a comparable level for "an imminent risk of harm". The Organisation for Economic Co-operation and Development (OECD) definitions move near misses off the incident scale into the AI hazard. The OECD 2025 reporting framework then lists severity on one axis: "Hazard; serious hazard; incident; serious incident; disaster; other (specify)". That list and INES both place hazards and incidents on a single scale.
+
+**Seriousness.** INES grades seriousness in levels; the OECD leaves it to jurisdictions: "Assessing the seriousness of an AI incident is highly context-dependent; each jurisdiction may define it differently".
+
+**Uncertain cases.** The provisional-then-final rating is a precedent for recording a classification with its status. The European Union (EU) AI Act allows a comparable sequence for reports: "the provider or, where applicable, the deployer, may submit an initial report that is incomplete, followed by a complete report".
+
+See [OECD](/rival-ai-incident-definitions/definitions/oecd/), [CSET](/rival-ai-incident-definitions/definitions/cset/) and [EU AI Act](/rival-ai-incident-definitions/definitions/eu-ai-act/).
+
+## Sources
+
+| Source | Status | Used for |
+|---|---|---|
+| [IAEA, INES User's Manual, 2008 Edition](https://www-pub.iaea.org/MTCD/Publications/PDF/INES2013web.pdf) | verified | levels, three areas, potential consequences, provisional rating |
+| [10 CFR 50.72](https://www.govinfo.gov/content/pkg/CFR-2024-title10-vol1/xml/CFR-2024-title10-vol1-sec50-72.xml), 2024 edition | verified | reportable conditions |
+| 10 CFR 50.73, licensee event reports | not retrieved | causes of reported events |
+| [NRC NUREG-1022 Rev. 2](https://www.nrc.gov/docs/ML0310/ML031080599.pdf), event reporting guidelines | retrieved, text layer unusable | reporting guidance |
+
+Every quotation on this page is pinned in the study repository under `claims/foundations/` (`iaea2008ines`, `nrc2024cfr5072`, `cset2023guide`, `oecd2024defining`, `oecd2025towards`, `eu2024aiact`) and passes `citations verify`.

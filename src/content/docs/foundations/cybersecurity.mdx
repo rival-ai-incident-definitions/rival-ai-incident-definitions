@@ -1,0 +1,97 @@
+---
+title: Cybersecurity
+description: How NIST incident-response guidance separates events, adverse events, precursors, indicators and incidents, and leaves the incident threshold to each organization.
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+The texts quoted here come from the National Institute of Standards and Technology (NIST). Special Publication (SP) 800-61 Revision 2, the *Computer Security Incident Handling Guide*, defines the terms most incident-response teams use. Revision 3, *Incident Response Recommendations and Considerations for Cyber Risk Management*, updates them. The NIST Cybersecurity Framework (CSF) 2.0 states the outcomes an organization's incident process should reach.
+
+| | Cybersecurity (NIST) |
+|---|---|
+| **Harm must have occurred** | <Badge text="no" variant="caution" /> an "imminent threat of violation" is an incident |
+| **Near miss** | <Badge text="included" variant="caution" /> as imminent threat; precursors are separate |
+| **Seriousness threshold** | <Badge text="none" variant="default" /> incidents are prioritized by impact after the fact |
+| **Causal role** | <Badge text="separate analysis" variant="note" /> root cause is established after declaration |
+| **Rule for uncertain cases** | <Badge text="judgment" variant="default" /> "sometimes a matter of judgment" |
+
+Colors follow the [Definitions](/rival-ai-incident-definitions/definitions/) page: green where the field requires the narrow reading, amber where it admits more, red where it excludes or restricts, blue where it moves the case to a separate term.
+
+## Recorded fields
+
+NIST separates the decision that an incident occurred from the assessment of how bad it is. SP 800-61 Rev. 2 prioritizes incidents on three factors, "such as the functional impact of the incident (e.g., current and likely future negative impact to business functions), the information impact of the incident (e.g., effect on the confidentiality, integrity, and availability of the organization’s information), and the recoverability from the incident".
+
+CSF 2.0 lists the steps as separate outcomes:
+
+| Outcome | Quoted text |
+|---|---|
+| Declare | "DE.AE-08: Incidents are declared when adverse events meet the defined incident criteria" |
+| Validate | "RS.MA-02: Incident reports are triaged and validated" |
+| Find the cause | "RS.AN-03: Analysis is performed to establish what has taken place during an incident and the root cause of the incident" |
+| Size it | "RS.AN-08: An incident’s magnitude is estimated and validated" |
+
+## Definitions
+
+SP 800-61 Rev. 2:
+
+> An event is any observable occurrence in a system or network
+
+> Adverse events are events with a negative consequence
+
+> Incident: A violation or imminent threat of violation of computer security policies, acceptable use policies, or standard security practices.
+
+The last quotation is from the Rev. 2 glossary.
+
+SP 800-61 Rev. 3, quoting the Federal Information Security Modernization Act of 2014 (FISMA):
+
+> A cybersecurity incident (or simply incident) is …an occurrence that actually or imminently jeopardizes, without lawful authority, the integrity, confidentiality, or availability of information or an information system
+
+## Harm, near miss and hazard
+
+The incident definition includes the threat as well as the violation. Rev. 2 fixes what "imminent" means: the term "refers to a situation in which the organization has a factual basis for believing that a specific incident is about to occur".
+
+Signs of future or current incidents are named separately: "A precursor is a sign that an incident may occur in the future. An indicator is a sign that an incident may have occurred or may be occurring now".
+
+| Term | Relation to harm |
+|---|---|
+| Event | any observable occurrence |
+| Adverse event | an event with a negative consequence |
+| Precursor | a sign an incident may occur |
+| Indicator | a sign an incident may have occurred |
+| Incident | a violation, or a threat of one with a factual basis |
+
+The layering puts the near miss inside the incident when the threat was imminent, and in the precursor when it was not.
+
+## Causal role
+
+The incident definition describes what happened to a system and names no cause. Rev. 3 says so of adverse events: "Adverse events are any events associated with a negative consequence regardless of cause". Cause comes in afterwards, as analysis of a declared incident (RS.AN-03 above).
+
+## Uncertain cases
+
+NIST treats classification as a judgment that the organization makes and defines for itself. Rev. 2 advises: "One of the first considerations should be to create an organization-specific definition of the term “incident” so that the scope of the term is clear". It then describes the decision:
+
+- "Even if an indicator is accurate, it does not necessarily mean that an incident has occurred."
+- "it is reasonable to suspect that an incident might be occurring and to act accordingly"
+- "Determining whether a particular event is actually an incident is sometimes a matter of judgment"
+
+Rev. 3 adds that "Additional analysis is often needed to determine whether adverse cybersecurity events indicate that a cybersecurity incident has occurred." The uncertain case is handled by acting on suspicion and deciding later. None of the passages quoted here states an evidence standard for the decision.
+
+## Bearing on AI-incident definitions
+
+**Harm and threat.** NIST counts an imminent threat as an incident. The AI Incident Database (AIID) does the same with "near harm": "an alleged harm or near harm event to people, property, or the environment where an AI system is implicated". The Organisation for Economic Co-operation and Development (OECD) counts only harm that occurred, and puts the rest under a hazard that "could plausibly lead to an AI incident". NIST's "factual basis" test for imminence is narrower than "could plausibly".
+
+**Seriousness.** NIST sets no seriousness threshold in the definition and ranks incidents afterwards. AIID also sets none: "Harms do not have to be severe to meet this definition".
+
+**Definition per organization.** NIST expects each organization to write its own incident definition. The OECD takes the same position on seriousness: "Assessing the seriousness of an AI incident is highly context-dependent; each jurisdiction may define it differently". Where definitions are local by design, two databases can disagree on the same event with neither in error.
+
+See [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/) and [OECD](/rival-ai-incident-definitions/definitions/oecd/).
+
+## Sources
+
+| Source | Status | Used for |
+|---|---|---|
+| [NIST SP 800-61 Rev. 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) | verified | event, adverse event, incident, imminent threat, precursor, indicator, judgment |
+| [NIST SP 800-61 Rev. 3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf) | verified | FISMA incident definition, adverse events regardless of cause |
+| [NIST CSF 2.0 (CSWP 29)](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf) | verified | declare, validate, root cause, magnitude |
+
+Every quotation on this page is pinned in the study repository under `claims/foundations/` (`cichonski2012computer`, `nelson2025incident`, `nist2024csf`, `aiid2026editors`, `oecd2024defining`) and passes `citations verify`.

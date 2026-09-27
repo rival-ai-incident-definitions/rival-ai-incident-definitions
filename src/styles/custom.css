@@ -128,3 +128,8 @@ details.worked-example > summary::marker {
 header .social-icons::after {
   content: none !important;
 }
+
+/* Pages without a table of contents get a wider content column (the Definitions scorecards) */
+:root:not([data-has-toc]) {
+  --sl-content-width: 72rem;
+}

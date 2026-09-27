@@ -13,11 +13,11 @@ The EU Artificial Intelligence Act (Regulation (EU) 2024/1689) defines a *seriou
 > (c) the infringement of obligations under Union law intended to protect fundamental rights;
 > (d) serious harm to property or the environment
 
-| element | text |
+| Element | Text |
 |---|---|
 | AI involvement | "directly or indirectly leads to" |
-| harms | four limbs, (a)–(d), each qualified as serious except (c) |
-| harm that did not occur | no provision in Article 3(49) |
+| Harms | Four limbs, (a)–(d), each qualified as serious except (c) |
+| Harm that did not occur | No provision in Article 3(49) |
 
 The Parliament text of 13 March 2024, reproduced in the [OECD paper](/rival-ai-incident-definitions/definitions/oecd/), reads "management and operation" in limb (b). The Official Journal text reads "management or operation".
 
