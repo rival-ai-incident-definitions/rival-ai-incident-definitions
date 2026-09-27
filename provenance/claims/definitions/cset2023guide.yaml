@@ -1,0 +1,140 @@
+claim: cset2023guide
+title: Quotations from cset2023guide used in p1_v1.tex
+source:
+  citation: cset2023guide
+  local: cset_guide.txt
+  sha256: 2dabeb8f943a4c6315e62f02ce0ac9d23e935dc393087318afd45736630c5057
+  tier: fulltext
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: true
+  note: pdftotext of CSET AI Harm Taxonomy for AIID and Annotation Guide, 25 July 2023
+claims:
+  q-cset-1:
+    statement: lines 106–109
+    verified: true
+    quotes:
+    - exact: "An AI Tangible Harm Event occurs when 1) a potentially identifiable, specific entity 2) experiences an event that causes tangible harm (injury, loss, or damage) which 3) can be directly linked to a consequence of 4) an AI’s behavior."
+  q-cset-2:
+    statement: lines 147–154
+    verified: true
+    quotes:
+    - exact: "A Special Interest Intangible AI Harm occurs when 1) a characterizable class or subgroup of entities 2) experiences or has a risk of experiencing a designated intangible harm that 3) can be directly linked to the consequences of 4) an AI’s behavior. In reference to #2 above, CSET has designated three categories of intangible harm: a) harm to civil liberties, civil rights, human rights, or democratic norms, b) detrimental content (misinformation, hate-speech, etc), and c) differential treatment based upon a protected characteristic."
+  q-cset-3:
+    statement: lines 46–48
+    verified: true
+    quotes:
+    - exact: "CSET is not distinguishing or defining similar levels (event, near-miss, and issue) for intangible harms."
+  q-cset-4:
+    statement: lines 31–34
+    verified: true
+    quotes:
+    - exact: "The impetus behind the update was to (1) decrease inter-annotator variability for AI incident harm annotation, (2) better distinguish between tangible harm events, near-misses, issues, and (3) identify three specific, special-interest intangible harm types."
+  q-cset-5:
+    statement: lines 418–421
+    verified: true
+    quotes:
+    - exact: "err on the side of classifying the account as an issue or the lowest clearly known level of harm category. We should have a high degree of confidence that harm did indeed involve harm tied to an entity and an AI system."
+  q-cset-6:
+    statement: lines 888–891
+    verified: true
+    quotes:
+    - exact: "The AI system doesn’t need to be the only factor, or even the major factor, in causing the harm. But it should at least be a “but-for” cause - that is, if the AI system hadn’t acted in the way it did, the specific harm would not have occurred."
+  q-cset-7:
+    statement: lines 893–894
+    verified: true
+    quotes:
+    - exact: "Harm would have occurred had it not been for randomness , luck, or atypical intervention that prevented the harm."
+  q-cset-8:
+    statement: lines 897–898
+    verified: true
+    quotes:
+    - exact: "Harm could not have nearly occurred but it could plausibly occur in the future."
+  q-cset-9:
+    statement: lines 904–905
+    verified: true
+    quotes:
+    - exact: "the general public is not an identifiable specific entity"
+  q-cset-10:
+    statement: line 1931
+    verified: true
+    quotes:
+    - exact: "This section captures the number of injuries and deaths occurring in the incident, including those that do not strictly meet CSET’s definition of a tangible AI harm event."
+  q-cset-11:
+    statement: lines 1950–1954; column-interleaved table cell quoted as adjacent fragments
+    verified: true
+    quotes:
+    - exact: "All reported injuries should count,"
+    - exact: "regardless of their severity level. If a"
+    - exact: "person lost their limb and another person"
+    - exact: "scraped their elbow, both cases would be"
+    - exact: "considered injuries."
+  q-cset-12:
+    statement: lines 394–396
+    verified: true
+    quotes:
+    - exact: "a single incident in the AIID may have multiple reports of multiple harm occurrences, with different harmed parties at different times or locations."
+  q-cset-13:
+    statement: lines 168–170
+    verified: true
+    quotes:
+    - exact: "Compared to CSET, the AIID has more permissive in what it considers an AI incident of interest and inclusion in its dataset."
+  q-cset-14:
+    statement: line 350
+    verified: true
+    quotes:
+    - exact: "Pick an incident from the database."
+  q-cset-15:
+    statement: lines 1058–1061; column-interleaved table cell quoted as adjacent fragments
+    verified: true
+    quotes:
+    - exact: "any remaining blanks were left deliberately"
+    - exact: "- that is, you looked, but couldn’t find"
+    - exact: "enough information to fill out the blank"
+  q-cset-17:
+    statement: lines 1413–1416; column-interleaved table cell quoted as adjacent fragments
+    verified: true
+    quotes:
+    - exact: "Indicate if a violation of"
+    - exact: "human rights, civil rights,"
+    - exact: "civil liberties, or democratic"
+    - exact: "civil liberties, civil   norms occurred."
+  q-cset-18:
+    statement: lines 1482–1486
+    verified: true
+    quotes:
+    - exact: "Only mark yes if there is clear evidence discrimination occurred. If there are conflicting accounts, mark unsure. Do not mark that discrimination occurred based on expectation alone."
+  q-cset-20:
+    statement: lines 1752–1756; column-interleaved table cell quoted as adjacent fragments
+    verified: true
+    quotes:
+    - exact: "A critical infrastructure sector is affected"
+    - exact: "when the incident impacts its infrastructure"
+    - exact: "physically or disturbs the normal operations"
+    - exact: "in that critical sector."
+  q-cset-21:
+    statement: lines 909–911
+    verified: true
+    quotes:
+    - exact: "CSET defines civil liberties as the personal freedoms that are referenced in the US Bill of Rights."
+  q-cset-22:
+    statement: lines 148–149 (inside q-cset-2)
+    verified: true
+    quotes:
+    - exact: "experiences or has a risk of experiencing a designated intangible harm"
+  q-cset-23:
+    statement: lines 2103–2105
+    verified: true
+    quotes:
+    - exact: "While the AI can still be directly linked, the harm would not have occurred if a person had not acted."
+  q-cset-24:
+    statement: lines 1403–1405; column-interleaved table cell quoted as adjacent fragments
+    verified: true
+    quotes:
+    - exact: "if ‘yes’ is selected then there was"
+    - exact: "likely a violation of civil liberties and there"
+    - exact: "was a special interest intangible harm."
+  q-cset-25:
+    statement: line 707
+    verified: true
+    quotes:
+    - exact: "Physical health/safety: This includes death, injury, or a reduction in lifespan."

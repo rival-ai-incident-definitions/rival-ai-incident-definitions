@@ -11,7 +11,7 @@ Several organizations publish a definition of an AI incident, and several databa
 
 The site accompanies a paper in preparation, and the analysis plan behind it, with its hypotheses, rules and thresholds, is being finalized so it can be frozen before any rule is run on the data; until then the [Crosswalk](/rival-ai-incident-definitions/crosswalk/) page shows only descriptive tables computed earlier.
 
-Every quotation on the site is checked against a saved copy of its source. A cell or section whose source has not yet been retrieved and checked says "not yet sourced".
+Every quotation on the site is checked against a saved copy of its source, and the records behind each page, with each source's sha256, are in the repository's [provenance folder](https://github.com/rival-ai-incident-definitions/rival-ai-incident-definitions/tree/main/provenance). A cell or section whose source has not yet been retrieved and checked says "not yet sourced".
 
 Made by Elliot Tower. Contact details are at [elliottower.ai](https://elliottower.ai). Source code: [github.com/rival-ai-incident-definitions](https://github.com/rival-ai-incident-definitions/rival-ai-incident-definitions).
 

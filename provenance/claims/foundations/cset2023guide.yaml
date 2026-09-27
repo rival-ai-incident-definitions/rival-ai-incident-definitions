@@ -1,0 +1,28 @@
+claim: cset2023guide
+title: CSET AI Harm Taxonomy for AIID and Annotation Guide
+description: Quotations used on the site Theoretical Foundations pages, pinned to cset_guide.txt.
+source:
+  citation: cset2023guide
+  title: CSET AI Harm Taxonomy for AIID and Annotation Guide
+  local: cset_guide.txt
+  sha256: 2dabeb8f943a4c6315e62f02ce0ac9d23e935dc393087318afd45736630c5057
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  definitely:
+    quotes:
+    - exact: the harm needs to have definitely occurred
+  imminent:
+    quotes:
+    - exact: an imminent risk of harm
+  safety_mechanism:
+    quotes:
+    - exact: situations where an AI system could have caused harm but did not due to a safety mechanism
+        are not AI harm
+  intangible_risk:
+    quotes:
+    - exact: experiences or has a risk of experiencing a designated intangible harm
+  err_lowest:
+    quotes:
+    - exact: err on the side of classifying the account as an issue or the lowest clearly known level
+        of harm category

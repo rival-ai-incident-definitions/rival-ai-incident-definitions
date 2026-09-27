@@ -1,0 +1,20 @@
+claim: oecd2023stocktaking
+title: Stocktaking for the development of an AI incident definition
+description: Quotations used on the site Theoretical Foundations pages, pinned to oecd2023_stocktaking_ai_incident_definition.txt.
+source:
+  citation: oecd2023stocktaking
+  title: Stocktaking for the development of an AI incident definition
+  local: oecd2023_stocktaking_ai_incident_definition.txt
+  sha256: 2e355d3eae435f25e92c6d6fc84449a9a5b7c64bdc703eed07b2531d2319ca95
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  near_miss_hazard:
+    quotes:
+    - exact: Over time, experts agreed that “near misses” should be part of “hazards”, due to the difficulty
+        of determining in an objective manner when the latter is close to causing an incident but does
+        not actually cause one
+  causal_chain:
+    quotes:
+    - exact: distinguishing between what “causes”, “nearly causes” or “contributing to” an AI incident
+        each mean

@@ -1,0 +1,18 @@
+claim: nrc2024cfr5072
+title: 10 CFR 50.72 Immediate notification requirements
+description: Quotations used on the site Theoretical Foundations pages, pinned to govinfo_10cfr50_72_2024.txt.
+source:
+  citation: nrc2024cfr5072
+  title: 10 CFR 50.72 Immediate notification requirements
+  local: govinfo_10cfr50_72_2024.txt
+  sha256: fa304f6ecde18cfdb8d9714bf628feb87bb9065a37581ff4eac24b2acf9175e4
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  could_have_prevented:
+    quotes:
+    - exact: Any event or condition that at the time of discovery could have prevented the fulfillment
+        of the safety function of structures or systems
+  unanalyzed:
+    quotes:
+    - exact: being in an unanalyzed condition that significantly degrades plant safety

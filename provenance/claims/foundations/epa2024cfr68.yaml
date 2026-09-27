@@ -1,0 +1,19 @@
+claim: epa2024cfr68
+title: 40 CFR Part 68 Chemical accident prevention provisions (CFR 2024)
+description: Quotations used on the site Theoretical Foundations pages, pinned to govinfo_40cfr68_2024.txt.
+source:
+  citation: epa2024cfr68
+  title: 40 CFR Part 68 Chemical accident prevention provisions (CFR 2024)
+  local: govinfo_40cfr68_2024.txt
+  sha256: 5762619fa29da7cd999acce3489ff1bc35c88b14fa65702822e4a2e60a8d78a1
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  accident_history:
+    quotes:
+    - exact: all accidental releases from covered processes that resulted in deaths, injuries, or significant
+        property damage on site, or known offsite deaths, injuries, evacuations, sheltering in place,
+        property damage, or environmental damage
+  initiating_if_known:
+    quotes:
+    - exact: Initiating event and contributing factors if known

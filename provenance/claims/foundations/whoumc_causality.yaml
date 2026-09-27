@@ -1,0 +1,29 @@
+claim: whoumc_causality
+title: The use of the WHO-UMC system for standardised case causality assessment
+description: Quotations used on the site Theoretical Foundations pages, pinned to who_umc_causality_assessment.txt.
+source:
+  citation: whoumc_causality
+  title: The use of the WHO-UMC system for standardised case causality assessment
+  local: who_umc_causality_assessment.txt
+  sha256: d16e6325d483b5816a36e84fd2e8dff26553630ab13bc06cdae66fce1ffa10a4
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  few_certain:
+    quotes:
+    - exact: In practice few adverse reactions are ‘certain’ or ‘unlikely’; most are somewhere in between
+        these extremes, i.e. ‘possible’ or ‘probable’
+  cannot_change:
+    quotes:
+    - exact: Change uncertainty into certainty
+  possible_criterion:
+    quotes:
+    - exact: Could also be explained by disease or other drugs
+  conditional:
+    quotes:
+    - exact: is of a preliminary nature and is appropriate when, for a proper assessment, there is more
+        data needed and such data are being sought, or are already under examination
+  unclassifiable:
+    quotes:
+    - exact: when the information in a report is incomplete or contradictory and cannot be complemented
+        or verified, the verdict is ‘Unclassifiable’

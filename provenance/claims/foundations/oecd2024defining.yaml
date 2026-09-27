@@ -1,0 +1,25 @@
+claim: oecd2024defining
+title: Defining AI incidents and related terms
+description: Quotations used on the site Theoretical Foundations pages, pinned to oecd_defining.txt.
+source:
+  citation: oecd2024defining
+  title: Defining AI incidents and related terms
+  local: oecd_defining.txt
+  sha256: 2f0220bb9f948e76a2a2051d30cc461ff0a7a348e0f7681bd65046aca9f42834
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  near_misses:
+    quotes:
+    - exact: Near misses are events that could have led to an AI incident and are therefore included under this definition of AI hazards
+  seriousness:
+    quotes:
+    - exact: Assessing the seriousness of an AI incident is highly context-dependent; each jurisdiction may define it differently
+  hazard:
+    quotes:
+    - exact: could plausibly lead to an AI incident
+      prefix: 'environment. An AI hazard is an event, circumstance or series of events where the development, use or malfunction of one or more AI systems '
+      suffix: ', i.e., any of the following harms: (a) injury or harm to the health of a person or groups of people; (b) disruption of'
+      section: null
+      page: null
+      line: 223

@@ -1,0 +1,66 @@
+claim: oecd2024defining
+title: Quotations from oecd2024defining used in p1_v1.tex
+source:
+  citation: oecd2024defining
+  local: oecd_defining.txt
+  sha256: 2f0220bb9f948e76a2a2051d30cc461ff0a7a348e0f7681bd65046aca9f42834
+  tier: fulltext
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: true
+  note: pdftotext of OECD AI Paper 16, fetched 2026-09-21
+claims:
+  q-oecd-1:
+    statement: lines 320–330
+    verified: true
+    quotes:
+    - exact: "An AI incident is an event, circumstance or series of events where the development, use or malfunction of one or more AI systems directly or indirectly leads to any of the following harms: (a) injury or harm to the health of a person or groups of people; (b) disruption of the management and operation of critical infrastructure; (c) violations of human rights or a breach of obligations under the applicable law intended to protect fundamental, labour and intellectual property rights; (d) harm to property, communities or the environment. This working definition of an AI incident is based on the Concept note"
+  q-oecd-2:
+    statement: lines 424–425
+    verified: true
+    quotes:
+    - exact: "Draft definition of an AI hazard An AI hazard is an event, circumstance or series of events where the development, use or malfunction of one or more AI systems could plausibly lead to an AI incident"
+  q-oecd-3:
+    statement: lines 443–444
+    verified: true
+    quotes:
+    - exact: "Near misses are events that could have led to an AI incident and are therefore included under this definition of AI hazards."
+  q-oecd-4:
+    statement: lines 363–364
+    verified: true
+    quotes:
+    - exact: "Reputational harm to individuals and intangible harms such as hate speech and mis- and disinformation are included under (c) in relation to a breach of fundamental rights."
+  q-oecd-5:
+    statement: lines 351–352
+    verified: true
+    quotes:
+    - exact: "Psychological harms and harms to mental health are included under the broader concept of health in (a)."
+  q-oecd-6:
+    statement: lines 395–396
+    verified: true
+    quotes:
+    - exact: "Assessing the seriousness of an AI incident is highly context-dependent; each jurisdiction may define it differently."
+  q-oecd-7:
+    statement: lines 158–160
+    verified: true
+    quotes:
+    - exact: "foster international interoperability while providing flexibility for jurisdictions to determine the scope of AI incidents and hazards they wish to address."
+  q-oecd-8:
+    statement: lines 332–334
+    verified: true
+    quotes:
+    - exact: "the definition of a serious AI incident being proposed in the context of the EU AI Act"
+  q-oecd-9:
+    statement: lines 634–643 (Annex B, Parliament text of 13 March 2024)
+    verified: true
+    quotes:
+    - exact: "‘Serious incident’ means any incident or malfunctioning of an AI system that directly or indirectly leads to any of the following: (a) the death of a person or serious harm to a person’s health; (b) a serious and irreversible disruption of the management and operation of critical infrastructure. (c) the infringement of obligations under Union law intended to protect fundamental rights; (d) serious harm to property or the environment;"
+  q-oecd-10:
+    statement: lines 389–391
+    verified: true
+    quotes:
+    - exact: "Serious AI incidents are a subset of AI incidents and are intended to include substantial, material incidents."
+  q-oecd-11:
+    statement: lines 560
+    verified: true
+    quotes:
+    - exact: "Reversibility            Harm is reversible/irreversible"

@@ -1,0 +1,21 @@
+claim: aiid2026editors
+title: Quotations from aiid2026editors used in p1_v1.tex
+source:
+  citation: aiid2026editors
+  local: aiid_editors_guide.mdx
+  sha256: 71fff7b06c06197ebf3141e5e5576588b9011fa0fe0e55f845821f92a1e20a85
+  tier: fulltext
+  extract_cmd: "cat {}"
+  read_in_full: true
+  note: AIID editors' guide, incidentdatabase.ai/editors-guide, fetched 2026-09-21
+claims:
+  q-aiid-1:
+    statement: lines 14–16
+    verified: true
+    quotes:
+    - exact: "an alleged harm or near harm event to people, property, or the environment where an AI system is implicated."
+  q-aiid-2:
+    statement: lines 52–58
+    verified: true
+    quotes:
+    - exact: "if it played an important role in the chain of events that led to harm. The AI system does not need to be the only factor, or the major factor, in causing the harm, but it should at least be a “but-for” cause"

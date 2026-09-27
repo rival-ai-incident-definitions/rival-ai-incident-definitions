@@ -1,0 +1,59 @@
+claim: eu2010aviation
+title: Regulation (EU) No 996/2010 civil aviation accident investigation
+description: Quotations used on the site Theoretical Foundations pages, pinned to eu_reg_996_2010_aviation_accident_investigation.txt.
+source:
+  citation: eu2010aviation
+  title: Regulation (EU) No 996/2010 civil aviation accident investigation
+  local: eu_reg_996_2010_aviation_accident_investigation.txt
+  sha256: 38a3b40d3b97115231531b8946e9b39f544070520229802ebbf0e95f20dd4576
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  accident_def_head:
+    quotes:
+    - exact: ‘accident’ means an occurrence associated with the
+  accident_injured:
+    quotes:
+    - exact: 'a person is fatally or seriously injured as a result of:'
+  accident_damage:
+    quotes:
+    - exact: the aircraft sustains damage or structural failure which
+  accident_missing:
+    quotes:
+    - exact: the aircraft is missing or is completely inaccessible
+  incident_def:
+    quotes:
+    - exact: ‘incident’ means an occurrence, other than an accident, associated with the operation of
+        an aircraft which affects or could affect the safety of operation
+  annex_not_exhaustive:
+    quotes:
+    - exact: The incidents listed are typical examples of incidents that are likely to be serious incidents.
+        The list is not exhaustive
+  near_collision:
+    quotes:
+    - exact: a near collision requiring an avoidance manoeuvre to avoid a collision or an unsafe situation
+  cfit:
+    quotes:
+    - exact: controlled flight into terrain only marginally avoided
+  causes_def:
+    quotes:
+    - exact: ‘causes’ means actions, omissions, events, conditions, or a
+  causes_def2:
+    quotes:
+    - exact: combination thereof, which led to the accident or incident
+  causes_no_fault:
+    quotes:
+    - exact: the identification of causes does not imply the assignment of fault or the determination
+        of administrative, civil or criminal liability
+  investigation_cause_factors:
+    quotes:
+    - exact: including the determination of cause(s) and/or contributing
+  serious_incident_def_1:
+    quotes:
+    - exact: ‘serious incident’ means an incident involving circum
+  serious_incident_def_2:
+    quotes:
+    - exact: stances indicating that there was a high probability of an accident
+  accident_def_op:
+    quotes:
+    - exact: operation of an aircraft which, in the case of a manned

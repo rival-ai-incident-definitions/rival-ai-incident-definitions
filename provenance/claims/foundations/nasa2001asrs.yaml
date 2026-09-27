@@ -1,0 +1,21 @@
+claim: nasa2001asrs
+title: 'ASRS: The Case for Confidential Incident Reporting Systems'
+description: Quotations used on the site Theoretical Foundations pages, pinned to asrs_case_for_confidential_incident_reporting.txt.
+source:
+  citation: nasa2001asrs
+  title: 'ASRS: The Case for Confidential Incident Reporting Systems'
+  local: asrs_case_for_confidential_incident_reporting.txt
+  sha256: 92b9582f54c15cc3a6330963c9133ad43064add80f62a5986a3a8e0c0920c2dc
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  cvnp:
+    quotes:
+    - exact: A properly structured confidential, voluntary, non-punitive incident reporting system can
+        be used by any person to share this information
+  excludes_accidents:
+    quotes:
+    - exact: In certain systems, such as the ASRS, this exclusion extends to legally defined accidents
+  why:
+    quotes:
+    - exact: There is no substitute for knowing why a system failed or why a human erred

@@ -1,0 +1,22 @@
+claim: mit2026tracker_def
+title: Definitional-scorecard quotations from mit2026tracker (MIT AI Incident Tracker, June 2026 update)
+source:
+  citation: mit2026tracker
+  local: mit_ai_incident_tracker_june2026_update.txt
+  sha256: 3263cf7ee096e0ecd078827e41cce3d68fe00890df37e28ccab3fbfd6aacca9d
+  tier: fulltext
+  extract_cmd: cat {}
+  read_in_full: true
+  note: MIT FutureTech AI Incident Tracker June 2026 update, https://airisk.mit.edu/blog/ai-incident-tracker-june-2026-update,
+    read in full 2026-09-27
+claims:
+  q-mit-def-a:
+    quotes:
+    - exact: The AI Incident Tracker uses large language models (LLMs) to process incident reports from
+        the AI Incident Database (AIID) and classify them along five taxonomies, producing standardized
+        data that policymakers and researchers can use to track trends.
+      section: line 15
+  q-mit-def-f:
+    quotes:
+    - exact: Harm Severity (how serious the harm was, rated across 10 harm-types)
+      section: line 17

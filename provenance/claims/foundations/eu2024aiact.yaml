@@ -1,0 +1,23 @@
+claim: eu2024aiact
+title: Regulation (EU) 2024/1689 (Artificial Intelligence Act)
+description: Quotations used on the site Theoretical Foundations pages, pinned to eu_ai_act_2024_1689_oj.txt.
+source:
+  citation: eu2024aiact
+  title: Regulation (EU) 2024/1689 (Artificial Intelligence Act)
+  local: eu_ai_act_2024_1689_oj.txt
+  sha256: f30d6c86cc965f3d44fd62a0bbde9cdd1922263bc124fb66c89ef77ce6d79c79
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  serious_incident:
+    quotes:
+    - exact: 'serious incident’ means an incident or malfunctioning of an AI system that directly or indirectly
+        leads to any of the following:'
+  causal_link:
+    quotes:
+    - exact: immediately after the provider has established a causal link between the AI system and the
+        serious incident or the reasonable likelihood of such a link
+  initial_incomplete:
+    quotes:
+    - exact: the provider or, where applicable, the deployer, may submit an initial report that is incomplete,
+        followed by a complete report

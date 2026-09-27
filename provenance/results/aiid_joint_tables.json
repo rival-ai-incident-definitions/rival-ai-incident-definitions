@@ -1,0 +1,265 @@
+{
+  "snapshot_sha256": "7204eeb2740cd04b896ce2000cc9bda9b7e9255e775057c9487538ca564de2fb",
+  "binary_rule": "\"yes\"/\"True\" is positive, \"no\"/\"False\" is negative; \"maybe\", \"unclear\" and blanks\nare dropped from that pair and counted.",
+  "same_criterion_different_rater": {
+    "annotator_1_vs_2 (shared incidents: 88)": {
+      "AI System": {
+        "n": 78,
+        "dropped": 10,
+        "n11": 60,
+        "n10": 3,
+        "n01": 2,
+        "n00": 13,
+        "agreement": 0.9359,
+        "kappa": 0.7988,
+        "direction": "both ways"
+      },
+      "Clear link to technology": {
+        "n": 76,
+        "dropped": 12,
+        "n11": 63,
+        "n10": 8,
+        "n01": 2,
+        "n00": 3,
+        "agreement": 0.8684,
+        "kappa": 0.3128,
+        "direction": "both ways"
+      },
+      "Harm Domain": {
+        "n": 80,
+        "dropped": 8,
+        "n11": 44,
+        "n10": 3,
+        "n01": 22,
+        "n00": 11,
+        "agreement": 0.6875,
+        "kappa": 0.2948,
+        "direction": "both ways"
+      },
+      "Impact on Critical Services": {
+        "n": 82,
+        "dropped": 6,
+        "n11": 2,
+        "n10": 1,
+        "n01": 5,
+        "n00": 74,
+        "agreement": 0.9268,
+        "kappa": 0.3676,
+        "direction": "both ways"
+      },
+      "Rights Violation": {
+        "n": 77,
+        "dropped": 11,
+        "n11": 5,
+        "n10": 0,
+        "n01": 7,
+        "n00": 65,
+        "agreement": 0.9091,
+        "kappa": 0.5467,
+        "direction": "one way"
+      },
+      "Involving Minor": {
+        "n": 85,
+        "dropped": 3,
+        "n11": 6,
+        "n10": 0,
+        "n01": 1,
+        "n00": 78,
+        "agreement": 0.9882,
+        "kappa": 0.9167,
+        "direction": "one way"
+      },
+      "Detrimental Content": {
+        "n": 81,
+        "dropped": 7,
+        "n11": 9,
+        "n10": 2,
+        "n01": 2,
+        "n00": 68,
+        "agreement": 0.9506,
+        "kappa": 0.7896,
+        "direction": "both ways"
+      },
+      "Protected Characteristic": {
+        "n": 82,
+        "dropped": 6,
+        "n11": 30,
+        "n10": 2,
+        "n01": 2,
+        "n00": 48,
+        "agreement": 0.9512,
+        "kappa": 0.8975,
+        "direction": "both ways"
+      },
+      "Special Interest Intangible Harm": {
+        "n": 80,
+        "dropped": 8,
+        "n11": 36,
+        "n10": 1,
+        "n01": 4,
+        "n00": 39,
+        "agreement": 0.9375,
+        "kappa": 0.875,
+        "direction": "both ways"
+      },
+      "Harmed Class of Entities": {
+        "n": 88,
+        "dropped": 0,
+        "n11": 66,
+        "n10": 13,
+        "n01": 6,
+        "n00": 3,
+        "agreement": 0.7841,
+        "kappa": 0.1255,
+        "direction": "both ways"
+      },
+      "There is a potentially identifiable specific entity that experienced the harm": {
+        "n": 88,
+        "dropped": 0,
+        "n11": 56,
+        "n10": 9,
+        "n01": 7,
+        "n00": 16,
+        "agreement": 0.8182,
+        "kappa": 0.542,
+        "direction": "both ways"
+      }
+    },
+    "annotator_1_vs_3 (shared incidents: 76)": {
+      "AI System": {
+        "n": 65,
+        "dropped": 11,
+        "n11": 61,
+        "n10": 1,
+        "n01": 2,
+        "n00": 1,
+        "agreement": 0.9538,
+        "kappa": 0.377,
+        "direction": "both ways"
+      },
+      "Clear link to technology": {
+        "n": 65,
+        "dropped": 11,
+        "n11": 62,
+        "n10": 1,
+        "n01": 0,
+        "n00": 2,
+        "agreement": 0.9846,
+        "kappa": 0.7923,
+        "direction": "one way"
+      },
+      "Harm Domain": {
+        "n": 64,
+        "dropped": 12,
+        "n11": 40,
+        "n10": 0,
+        "n01": 17,
+        "n00": 7,
+        "agreement": 0.7344,
+        "kappa": 0.3398,
+        "direction": "one way"
+      },
+      "Impact on Critical Services": {
+        "n": 72,
+        "dropped": 4,
+        "n11": 1,
+        "n10": 0,
+        "n01": 5,
+        "n00": 66,
+        "agreement": 0.9306,
+        "kappa": 0.2683,
+        "direction": "one way"
+      },
+      "Rights Violation": {
+        "n": 64,
+        "dropped": 12,
+        "n11": 3,
+        "n10": 1,
+        "n01": 6,
+        "n00": 54,
+        "agreement": 0.8906,
+        "kappa": 0.4105,
+        "direction": "both ways"
+      },
+      "Involving Minor": {
+        "n": 73,
+        "dropped": 3,
+        "n11": 0,
+        "n10": 3,
+        "n01": 0,
+        "n00": 70,
+        "agreement": 0.9589,
+        "kappa": 0.0,
+        "direction": "one way"
+      },
+      "Detrimental Content": {
+        "n": 71,
+        "dropped": 5,
+        "n11": 8,
+        "n10": 0,
+        "n01": 1,
+        "n00": 62,
+        "agreement": 0.9859,
+        "kappa": 0.9332,
+        "direction": "one way"
+      },
+      "Protected Characteristic": {
+        "n": 66,
+        "dropped": 10,
+        "n11": 22,
+        "n10": 3,
+        "n01": 1,
+        "n00": 40,
+        "agreement": 0.9394,
+        "kappa": 0.8692,
+        "direction": "both ways"
+      },
+      "Special Interest Intangible Harm": {
+        "n": 64,
+        "dropped": 12,
+        "n11": 25,
+        "n10": 5,
+        "n01": 2,
+        "n00": 32,
+        "agreement": 0.8906,
+        "kappa": 0.7791,
+        "direction": "both ways"
+      },
+      "Harmed Class of Entities": {
+        "n": 76,
+        "dropped": 0,
+        "n11": 59,
+        "n10": 7,
+        "n01": 7,
+        "n00": 3,
+        "agreement": 0.8158,
+        "kappa": 0.1939,
+        "direction": "both ways"
+      },
+      "There is a potentially identifiable specific entity that experienced the harm": {
+        "n": 76,
+        "dropped": 0,
+        "n11": 48,
+        "n10": 10,
+        "n01": 7,
+        "n00": 11,
+        "agreement": 0.7763,
+        "kappa": 0.4149,
+        "direction": "both ways"
+      }
+    }
+  },
+  "different_criteria_same_incidents": {
+    "CSETv1 'Intentional Harm' (x) vs MIT 'Intent' (y) (shared incidents: 214)": {
+      "n": 190,
+      "dropped": 24,
+      "n11": 7,
+      "n10": 1,
+      "n01": 22,
+      "n00": 160,
+      "agreement": 0.8789,
+      "kappa": 0.3345,
+      "direction": "both ways"
+    }
+  }
+}

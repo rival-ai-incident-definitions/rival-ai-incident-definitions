@@ -1,0 +1,43 @@
+claim: eu2014occurrence
+title: Regulation (EU) No 376/2014 occurrence reporting
+description: Quotations used on the site Theoretical Foundations pages, pinned to eu_reg_376_2014_aviation_occurrence_reporting.txt.
+source:
+  citation: eu2014occurrence
+  title: Regulation (EU) No 376/2014 occurrence reporting
+  local: eu_reg_376_2014_aviation_occurrence_reporting.txt
+  sha256: 5428cb27250de7a5c1619fdd9e68022d24534c0d641b32e25d29e3ff6016b70c
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  occurrence_def:
+    quotes:
+    - exact: ‘occurrence’ means any safety-related event which endangers or which, if not corrected or
+        addressed, could endanger an aircraft, its occupants or any other person and includes in particular
+        an accident or serious incident
+  hazard_def:
+    quotes:
+    - exact: ‘hazard’ means a situation or an object with the potential to cause death or injury to a
+        person
+  sole_objective:
+    quotes:
+    - exact: The sole objective of occurrence reporting is the prevention of accidents and incidents and
+        not to attribute blame or liability
+  risk_classification:
+    quotes:
+    - exact: shall include a safety risk classification for the occurrence concerned
+  annex_class:
+    quotes:
+    - exact: Occurrence Class
+  unknown_value:
+    quotes:
+    - exact: the data field may be completed with the value ‘unknown’
+  unknown_avoid:
+    quotes:
+    - exact: use of that ‘unknown’ value should, to the best extent possible, be avoided, and the report
+        should, where possible, be completed with the information later
+  voluntary_potential:
+    quotes:
+    - exact: paragraph 1 and which may involve an actual or potential aviation safety risk
+  annex_risk:
+    quotes:
+    - exact: (8) Risk classification

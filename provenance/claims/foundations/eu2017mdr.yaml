@@ -1,0 +1,42 @@
+claim: eu2017mdr
+title: Regulation (EU) 2017/745 on medical devices
+description: Quotations used on the site Theoretical Foundations pages, pinned to eu_mdr_2017_745_consolidated.txt.
+source:
+  citation: eu2017mdr
+  title: Regulation (EU) 2017/745 on medical devices
+  local: eu_mdr_2017_745_consolidated.txt
+  sha256: 974bf1cfaceb07eab2b96d90748ee27be5706d6aaf485303b9039919832815f5
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  incident_def:
+    quotes:
+    - exact: ‘incident’ means any malfunction or deterioration in the characteristics or performance of
+        a device made available on the market, including use-error due to ergonomic features, as well
+        as any inadequacy in the information supplied by the manufacturer and any undesirable side-effect
+  serious_incident_def:
+    quotes:
+    - exact: '‘serious incident’ means any incident that directly or indirectly led, might have led or
+        might lead to any of the following:'
+  serious_a:
+    quotes:
+    - exact: the death of a patient, user or other person
+  serious_b:
+    quotes:
+    - exact: the temporary or permanent serious deterioration of a patient's, user's or other person's
+        state of health
+  fsca_def:
+    quotes:
+    - exact: corrective action taken by a manufacturer for technical or medical reasons to prevent or
+        reduce the risk of a serious incident
+  uncertain_report:
+    quotes:
+    - exact: If, after becoming aware of a potentially reportable incident, the manufacturer is uncertain
+        about whether the incident is reportable, it shall nevertheless submit a report
+  initial_incomplete:
+    quotes:
+    - exact: the manufacturer may submit an initial report that is incomplete followed up by a complete
+        report
+  serious_c:
+    quotes:
+    - exact: (c) a serious public health threat;

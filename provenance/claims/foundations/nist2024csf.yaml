@@ -1,0 +1,24 @@
+claim: nist2024csf
+title: The NIST Cybersecurity Framework (CSF) 2.0 (NIST CSWP 29)
+description: Quotations used on the site Theoretical Foundations pages, pinned to nist_cswp29_csf2.txt.
+source:
+  citation: nist2024csf
+  title: The NIST Cybersecurity Framework (CSF) 2.0 (NIST CSWP 29)
+  local: nist_cswp29_csf2.txt
+  sha256: 2ae824f32655fd680098039bc999b415c7e8aa93d55754a752011ad583ab2deb
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  de_ae_08:
+    quotes:
+    - exact: 'DE.AE-08: Incidents are declared when adverse events meet the defined incident criteria'
+  rs_ma_02:
+    quotes:
+    - exact: 'RS.MA-02: Incident reports are triaged and validated'
+  rs_an_03:
+    quotes:
+    - exact: 'RS.AN-03: Analysis is performed to establish what has taken place during an incident and
+        the root cause of the incident'
+  rs_an_08:
+    quotes:
+    - exact: 'RS.AN-08: An incident’s magnitude is estimated and validated'

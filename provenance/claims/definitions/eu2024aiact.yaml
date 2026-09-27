@@ -1,0 +1,115 @@
+claim: eu2024aiact
+title: 'Regulation (EU) 2024/1689 (Artificial Intelligence Act)'
+description: 'Quotations used in p3_v1.tex, pinned to eu_ai_act_2024_1689_oj.txt.'
+source:
+  citation: eu2024aiact
+  title: 'Regulation (EU) 2024/1689 (Artificial Intelligence Act)'
+  local: eu_ai_act_2024_1689_oj.txt
+  sha256: f30d6c86cc965f3d44fd62a0bbde9cdd1922263bc124fb66c89ef77ce6d79c79
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  serious_incident_means_an_incident_or_malfunctio:
+    quotes:
+    - exact: 'serious incident’ means an incident or malfunctioning of an AI system that directly or indirectly leads to any of the following:'
+      prefix: 'this Regulation shall be construed as references to the European Data Protection Supervisor; (49) ‘'
+      suffix: ' (a) the death of a person, or serious harm to a person’s health; (b)'
+      section: null
+      page: null
+      line: 3331
+  a_the_death_of_a_person_or_serious_harm_to_a_pe:
+    quotes:
+    - exact: '(a) the death of a person, or serious harm to a person’s health;'
+      prefix: 'of an AI system that directly or indirectly leads to any of the following: '
+      suffix: ' (b) a serious and irreversible disruption of the management or operation of critical infrastructure;'
+      section: null
+      page: null
+      line: 3335
+  b_a_serious_and_irreversible_disruption_of_the:
+    quotes:
+    - exact: '(b) a serious and irreversible disruption of the management or operation of critical infrastructure;'
+      prefix: 'following: (a) the death of a person, or serious harm to a person’s health; '
+      suffix: ' (c) the infringement of obligations under Union law intended to protect fundamental rights; (d)'
+      section: null
+      page: null
+      line: 3338
+  c_the_infringement_of_obligations_under_union_l:
+    quotes:
+    - exact: '(c) the infringement of obligations under Union law intended to protect fundamental rights;'
+      prefix: '(b) a serious and irreversible disruption of the management or operation of critical infrastructure; '
+      suffix: ' (d) serious harm to property or the environment; (50) ‘personal data’ means personal data'
+      section: null
+      page: null
+      line: 3341
+  d_serious_harm_to_property_or_the_environment:
+    quotes:
+    - exact: '(d) serious harm to property or the environment'
+      prefix: 'infrastructure; (c) the infringement of obligations under Union law intended to protect fundamental rights; '
+      suffix: '; (50) ‘personal data’ means personal data as defined in Article 4, point (1), of'
+      section: null
+      page: null
+      line: 3344
+  shall_report_any_serious_incident_to_the_market:
+    quotes:
+    - exact: 'shall report any serious incident to the market surveillance authorities of the Member States where that incident occurred'
+      prefix: 'of serious incidents 1. Providers of high-risk AI systems placed on the Union market '
+      suffix: '. ELI: http://data.europa.eu/eli/reg/2024/1689/oj 101/144 EN OJ L, 12.7.2024 2. The report referred to in paragraph'
+      section: null
+      page: null
+      line: 6870
+  immediately_after_the_provider_has_established_a:
+    quotes:
+    - exact: 'immediately after the provider has established a causal link between the AI system and the serious incident or the reasonable likelihood of such a link, and, in any event, not later than 15 days'
+      prefix: 'OJ L, 12.7.2024 2. The report referred to in paragraph 1 shall be made '
+      suffix: ' after the provider or, where applicable, the deployer, becomes aware of the serious incident.'
+      section: null
+      page: null
+      line: 6876
+  immediately_after_the_provider_or_the_deployer_h:
+    quotes:
+    - exact: 'immediately after the provider or the deployer has established, or as soon as it suspects, a causal relationship'
+      prefix: 'in the event of the death of a person, the report shall be provided '
+      suffix: ' between the high-risk AI system and the serious incident, but not later than 10'
+      section: null
+      page: null
+      line: 6886
+  the_provider_or_where_applicable_the_deployer_ma:
+    quotes:
+    - exact: 'the provider or, where applicable, the deployer, may submit an initial report that is incomplete, followed by a complete report'
+      prefix: 'deployer becomes aware of the serious incident. 5. Where necessary to ensure timely reporting, '
+      suffix: '. 6. Following the reporting of a serious incident pursuant to paragraph 1, the provider'
+      section: null
+      page: null
+      line: 6891
+  the_notification_of_serious_incidents_shall_be_l:
+    quotes:
+    - exact: 'the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c)'
+      prefix: 'legislative instruments laying down reporting obligations equivalent to those set out in this Regulation, '
+      suffix: '. 10. For high-risk AI systems which are safety components of devices, or are themselves'
+      section: null
+      page: null
+      line: 6913
+  management_or_operation:
+    quotes:
+    - exact: 'management or operation'
+      prefix: 'serious harm to a person’s health; (b) a serious and irreversible disruption of the '
+      suffix: ' of critical infrastructure; (c) the infringement of obligations under Union law intended to protect'
+      section: null
+      page: null
+      line: 3338
+  an_initial_report_that_is_incomplete:
+    quotes:
+    - exact: 'an initial report that is incomplete'
+      prefix: 'necessary to ensure timely reporting, the provider or, where applicable, the deployer, may submit '
+      suffix: ', followed by a complete report. 6. Following the reporting of a serious incident pursuant'
+      section: null
+      page: null
+      line: 6891
+  reasonable_likelihood_of_such_a_link:
+    quotes:
+    - exact: 'reasonable likelihood of such a link'
+      prefix: 'established a causal link between the AI system and the serious incident or the '
+      suffix: ', and, in any event, not later than 15 days after the provider or, where'
+      section: null
+      page: null
+      line: 6877

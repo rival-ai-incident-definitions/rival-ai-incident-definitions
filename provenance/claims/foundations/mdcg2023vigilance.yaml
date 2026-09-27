@@ -1,0 +1,42 @@
+claim: mdcg2023vigilance
+title: MDCG 2023-3 Rev.2 vigilance terms and concepts
+description: Quotations used on the site Theoretical Foundations pages, pinned to mdcg2023-3_rev2_vigilance_terms_concepts_mdr.txt.
+source:
+  citation: mdcg2023vigilance
+  title: MDCG 2023-3 Rev.2 vigilance terms and concepts
+  local: mdcg2023-3_rev2_vigilance_terms_concepts_mdr.txt
+  sha256: 1538719656ef53297817d809af4abc30e83ba827e55cc2d9fffd042f1e4fb67d
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  criteria_intro:
+    quotes:
+    - exact: Any incident which meets all three basic reporting criteria A – C listed below is considered
+        to be a serious incident and must be reported to the relevant competent authority
+  criterion_a:
+    quotes:
+    - exact: an incident (Article 2(64) MDR/Article 2(67) IVDR) has occurred
+  criterion_c:
+    quotes:
+    - exact: a causal relationship between the serious incident and the manufacturer's device has been
+        established, is reasonably possible or is suspected
+  not_excluded:
+    quotes:
+    - exact: the device cannot reasonably be excluded as a contributory cause of the serious incident
+  less_favourable:
+    quotes:
+    - exact: if the circumstances were less favourable (for instance, without the performance of an intervention
+        by a third party or if there was exposure of more vulnerable patients to the same situation, etc.)
+  cannot_exclude:
+    quotes:
+    - exact: If the manufacturer cannot exclude that the incident could potentially have led to the outcomes
+  must_be_serious:
+    quotes:
+    - exact: the incident must be considered serious and reported to the relevant competent authority
+  final_nonreportable:
+    quotes:
+    - exact: Final, (Non-reportable incident)
+  must_still_investigate:
+    quotes:
+    - exact: must still investigate whether it directly or indirectly might lead to/might have led to,
+        any of the outcomes

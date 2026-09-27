@@ -1,0 +1,27 @@
+claim: oecd2025towards
+title: Towards a common reporting framework for AI incidents
+description: Quotations used on the site Theoretical Foundations pages, pinned to oecd2025_common_reporting_framework_ai_incidents.txt.
+source:
+  citation: oecd2025towards
+  title: Towards a common reporting framework for AI incidents
+  local: oecd2025_common_reporting_framework_ai_incidents.txt
+  sha256: 142a0345dbc529bdf85db48dfbf93605cad46293741718ef5b3f8583683ed0c5
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  causality_options:
+    quotes:
+    - exact: Direct cause; contributing factor; failure to act; overreliance and intentional misuse; human error; failure to comply with legal frameworks
+      prefix: 'of the incident* N/A 3. How is the AI system(s) related to the incident* '
+      suffix: ; other (specify for all) (Annex C) 4. Submitter information (role, affiliation, etc.)* Role; email;
+      section: null
+      page: null
+      line: 573
+  severity_options:
+    quotes:
+    - exact: Hazard; serious hazard; incident; serious incident; disaster; other (specify)
+      prefix: 'system(s)/product(s) N/A 9. Organisation(s) that developed and/or deployed the AI system N/A 10. Severity* '
+      suffix: ' (OECD[1]) 11. Harm type* Physical; psychological; reputational; economic/property; environmental; public interest/critical infrastructure; human or'
+      section: null
+      page: null
+      line: 615

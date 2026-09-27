@@ -1,0 +1,23 @@
+claim: nelson2025incident
+title: NIST SP 800-61 Rev. 3 Incident Response Recommendations
+description: Quotations used on the site Theoretical Foundations pages, pinned to nist_sp800-61r3_incident_response.txt.
+source:
+  citation: nelson2025incident
+  title: NIST SP 800-61 Rev. 3 Incident Response Recommendations
+  local: nist_sp800-61r3_incident_response.txt
+  sha256: d1862f07a90e6ff2607956e085329915d677ac0a28b5806e2e4ef95db645aa17
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  adverse_r3:
+    quotes:
+    - exact: Adverse events are any events associated with a negative consequence regardless of cause
+  additional_analysis:
+    quotes:
+    - exact: Additional analysis is often needed to determine whether adverse cybersecurity events indicate
+        that a cybersecurity incident has occurred.
+  incident_r3:
+    quotes:
+    - exact: A cybersecurity incident (or simply incident) is …an occurrence that actually or imminently
+        jeopardizes, without lawful authority, the integrity, confidentiality, or availability of information
+        or an information system

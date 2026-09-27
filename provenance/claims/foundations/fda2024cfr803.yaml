@@ -1,0 +1,33 @@
+claim: fda2024cfr803
+title: 21 CFR Part 803 Medical Device Reporting (CFR 2024)
+description: Quotations used on the site Theoretical Foundations pages, pinned to govinfo_21cfr803_2024.txt.
+source:
+  citation: fda2024cfr803
+  title: 21 CFR Part 803 Medical Device Reporting (CFR 2024)
+  local: govinfo_21cfr803_2024.txt
+  sha256: 784d0b2d39c068526c673109b4b2f4b1ccba48fe8b05d22b7e05dabcefb8d871
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  caused_contributed:
+    quotes:
+    - exact: Caused or contributed means that a death or serious injury was or may have been attributed
+        to a medical device, or that a medical device was or may have been a factor in a death or serious
+        injury
+  malfunction_recur:
+    quotes:
+    - exact: Has malfunctioned and that the device or a similar device marketed by the manufacturer or
+        importer would be likely to cause or contribute to a death or serious injury if the malfunction
+        were to recur
+  reasonably_suggests:
+    quotes:
+    - exact: Any information, including professional, scientific, or medical facts, observations, or opinions,
+        may reasonably suggest that a device has caused or may have caused or contributed to an MDR reportable
+        event
+  not_admission:
+    quotes:
+    - exact: is not necessarily an admission that the device, or you or your employees, caused or contributed
+        to the reportable event
+  failure_modes:
+    quotes:
+    - exact: 'including events occurring as a result of:'

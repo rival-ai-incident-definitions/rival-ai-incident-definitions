@@ -1,0 +1,28 @@
+claim: aiid2026editors
+title: Editors Guide (AI Incident Database)
+description: Quotations used on the site Theoretical Foundations pages, pinned to aiid_editors_guide.txt.
+source:
+  citation: aiid2026editors
+  title: Editors Guide (AI Incident Database)
+  local: aiid_editors_guide.txt
+  sha256: 71fff7b06c06197ebf3141e5e5576588b9011fa0fe0e55f845821f92a1e20a85
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  incident_def:
+    quotes:
+    - exact: an alleged harm or near harm event to people, property, or the environment where an AI system is implicated
+  err_harm:
+    quotes:
+    - exact: their best judgment, erring on the side of finding harm when there is a plausible argument that harm occurred
+  not_severe:
+    quotes:
+    - exact: Harms do not have to be severe to meet this definition
+  but_for:
+    quotes:
+    - exact: should at least be a “but-for” cause
+      prefix: 'be the only factor, or the major factor, in causing the harm, but it '
+      suffix: ' – that is, if the AI system hadn’t acted in the way it did,'
+      section: null
+      page: null
+      line: 56

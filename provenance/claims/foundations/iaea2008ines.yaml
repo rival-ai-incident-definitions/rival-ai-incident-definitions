@@ -1,0 +1,60 @@
+claim: iaea2008ines
+title: INES User's Manual 2008 Edition
+description: Quotations used on the site Theoretical Foundations pages, pinned to iaea_ines_users_manual_2008_edition.txt.
+source:
+  citation: iaea2008ines
+  title: INES User's Manual 2008 Edition
+  local: iaea_ines_users_manual_2008_edition.txt
+  sha256: a943a93eba991d538f9676eb0850ee6e9b23b98229c4339a121e5f4d6232cde1
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  seven_levels:
+    quotes:
+    - exact: 'Events are classified on the scale at seven levels: Levels 4–7 are termed “accidents” and
+        Levels 1–3 “incidents”. Events without safety significance are classified as “Below Scale/Level
+        0”.'
+  three_areas:
+    quotes:
+    - exact: 'Events are considered in terms of their impact on three different areas: impact on people
+        and the environment; impact on radiological barriers and controls at facilities; and impact on
+        defence in depth.'
+  highest_level:
+    quotes:
+    - exact: The event rating is then the highest level from consideration of each of the three areas.
+  no_actual_consequences:
+    quotes:
+    - exact: Reduction in defence in depth principally covers those events with no actual consequences,
+        but where the measures put in place to prevent or cope with accidents did not operate as intended.
+  potential_consequences:
+    quotes:
+    - exact: INES needed to cover not only actual consequences but also the potential consequences of
+        events.
+  max_level3:
+    quotes:
+    - exact: Since these events only involve an increased likelihood of an accident, with no actual consequences,
+        the maximum rating for such events is set at Level 3
+  additional_factors:
+    quotes:
+    - exact: covering as appropriate, common cause failure, issues with procedures and safety culture
+  communication_tool:
+    quotes:
+    - exact: INES is a communication tool.
+  not_formal:
+    quotes:
+    - exact: The communication of events and their INES ratings is not a formal reporting system.
+  provisional:
+    quotes:
+    - exact: where not all the details of the event are known early on, it is recommended that a provisional
+        rating is issued based on the information that is available and the judgement of those understanding
+        the nature of the event. Later on, a final rating should be communicated and any differences explained.
+  boundary:
+    quotes:
+    - exact: it is difficult to ensure precise consistency in rating events at the boundary between Below
+        scale/Level 0 and Level 1
+  actual_consequences_term:
+    quotes:
+    - exact: are described in this manual as events with “actual consequences.”
+  raise_one_level:
+    quotes:
+    - exact: the criteria allow the rating to be increased by one level

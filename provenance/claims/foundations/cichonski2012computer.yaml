@@ -1,0 +1,48 @@
+claim: cichonski2012computer
+title: NIST SP 800-61 Rev. 2 Computer Security Incident Handling Guide
+description: Quotations used on the site Theoretical Foundations pages, pinned to nist_sp800-61r2_incident_handling_guide.txt.
+source:
+  citation: cichonski2012computer
+  title: NIST SP 800-61 Rev. 2 Computer Security Incident Handling Guide
+  local: nist_sp800-61r2_incident_handling_guide.txt
+  sha256: 294291a7808724a63e123846de9e6639657278818e8d40aabf0ebc5295c74292
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  event_def:
+    quotes:
+    - exact: An event is any observable occurrence in a system or network
+  adverse_def:
+    quotes:
+    - exact: Adverse events are events with a negative consequence
+  imminent_def:
+    quotes:
+    - exact: refers to a situation in which the organization has a factual basis for believing that a
+        specific incident is about to occur
+  precursor_indicator:
+    quotes:
+    - exact: A precursor is a sign that an incident may occur in the future. An indicator is a sign that
+        an incident may have occurred or may be occurring now
+  org_specific:
+    quotes:
+    - exact: One of the first considerations should be to create an organization-specific definition of
+        the term “incident” so that the scope of the term is clear
+  prioritize_factors:
+    quotes:
+    - exact: such as the functional impact of the incident (e.g., current and likely future negative impact
+        to business functions), the information impact of the incident (e.g., effect on the confidentiality,
+        integrity, and availability of the organization’s information), and the recoverability from the
+        incident
+  accurate_not_incident:
+    quotes:
+    - exact: Even if an indicator is accurate, it does not necessarily mean that an incident has occurred.
+  reasonable_suspect:
+    quotes:
+    - exact: it is reasonable to suspect that an incident might be occurring and to act accordingly
+  judgment:
+    quotes:
+    - exact: Determining whether a particular event is actually an incident is sometimes a matter of judgment
+  incident_glossary:
+    quotes:
+    - exact: 'Incident: A violation or imminent threat of violation of computer security policies, acceptable
+        use policies, or standard security practices.'

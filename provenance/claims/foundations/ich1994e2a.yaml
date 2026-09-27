@@ -1,0 +1,63 @@
+claim: ich1994e2a
+title: ICH E2A Clinical Safety Data Management
+description: Quotations used on the site Theoretical Foundations pages, pinned to ich_e2a_clinical_safety_data_management_definitions.txt.
+source:
+  citation: ich1994e2a
+  title: ICH E2A Clinical Safety Data Management
+  local: ich_e2a_clinical_safety_data_management_definitions.txt
+  sha256: e7af6d001a364536c597b5dd35b36a31cd80fb5b671174d02fff79d002bb97f9
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  ae_def:
+    quotes:
+    - exact: Any untoward medical occurrence in a patient or clinical investigation subject administered
+        a pharmaceutical product and which does not necessarily have to have a causal relationship with
+        this treatment
+  adr_possibility:
+    quotes:
+    - exact: a causal relationship between a medicinal product and an adverse event is at least a reasonable
+        possibility, i.e., the relationship cannot be ruled out
+  serious_def:
+    quotes:
+    - exact: 'A serious adverse event (experience) or reaction is any untoward medical occurrence that
+        at any dose:'
+  results_in_death:
+    quotes:
+    - exact: results in death,
+  life_threatening:
+    quotes:
+    - exact: is life-threatening,
+  hospitalisation:
+    quotes:
+    - exact: requires inpatient hospitalisation or prolongation of existing hospitalisation
+  disability:
+    quotes:
+    - exact: results in persistent or significant disability/incapacity, or
+  congenital:
+    quotes:
+    - exact: is a congenital anomaly/birth defect
+  lt_note:
+    quotes:
+    - exact: refers to an event in which the patient was at risk of death at the time of the event; it
+        does not refer to an event which hypothetically might have caused death if it were more severe
+  seriousness_not_severity:
+    quotes:
+    - exact: Seriousness (not severity) serves as a guide for defining regulatory reporting obligations
+  important_medical:
+    quotes:
+    - exact: may require intervention to prevent one of the other outcomes listed in the definition above
+  no_nomenclature:
+    quotes:
+    - exact: there is currently no standard international nomenclature
+  spontaneous_imply:
+    quotes:
+    - exact: adverse event reports associated with marketed drugs (spontaneous reports) usually imply
+        causality
+  minimum_criteria:
+    quotes:
+    - exact: an identifiable patient; a suspect medicinal product; an identifiable reporting source; and
+        an event or outcome that can be identified as serious and unexpected
+  follow_up:
+    quotes:
+    - exact: Follow-up information should be actively sought and submitted as it becomes available

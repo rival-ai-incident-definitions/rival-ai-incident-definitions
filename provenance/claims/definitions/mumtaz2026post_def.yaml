@@ -1,0 +1,37 @@
+claim: mumtaz2026post_def
+title: Definitional-scorecard quotations from mumtaz2026post (Post-Deployment Accountability in AI Governance,
+  PAGCF)
+source:
+  citation: mumtaz2026post
+  local: mumtaz2026post.txt
+  sha256: 262333848bf5ab20a299a31d2bce2303161d31cbd3c12612198c94c30557974a
+  tier: fulltext
+  extract_cmd: cat {}
+  read_in_full: true
+  note: pdftotext -layout of arXiv 2605.16281 PDF, fetched https://arxiv.org/pdf/2605.16281 2026-09-27
+claims:
+  q-pagcf-def-a1:
+    quotes:
+    - exact: We operationalise compliance indicators for nine post-deployment provisions across the three
+        frameworks using automated content analysis over incident report texts and structured metadata.
+      section: lines 195-196
+  q-pagcf-def-a2:
+    quotes:
+    - exact: 'For each provision an incident is assigned to one of four categories: compliant, partially
+        compliant, non-compliant, or insufficient evidence.'
+      section: lines 203-204
+  q-pagcf-def-e:
+    quotes:
+    - exact: Governance gap by incident severity (serious vs non-serious).
+      section: line 712
+  q-pagcf-def-f:
+    quotes:
+    - exact: links to complementary taxonomies from CSET, the MIT AI Risk Repository, and the Global Monitoring
+        Framework (GMF)
+      section: lines 187-189
+  q-pagcf-def-g:
+    quotes:
+    - exact: interpret “insufficient evidence” separately from non-compliance because missing public documentation
+        can reflect either an actual governance failure or a reporting limitation; analytically, however,
+        both conditions weaken public accountability.
+      section: lines 243-245

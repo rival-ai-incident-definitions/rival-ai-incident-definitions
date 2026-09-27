@@ -1,0 +1,31 @@
+claim: cset2021v0_def
+title: Definitional-scorecard quotations from cset2021v0 (CSET AI Harm Taxonomy for AIID, first edition
+  / CSETv0)
+source:
+  citation: cset2021v0
+  local: cset2021v0_taxonomy.txt
+  sha256: 4739ad735455e0ab7678996897b4717cd152dbf5c0d30fb4ad9a149e5db10bc1
+  tier: fulltext
+  extract_cmd: cat {}
+  read_in_full: true
+  note: pandoc plain-text extraction of https://incidentdatabase.ai/taxonomies/csetv0/ (AI Incident Database
+    CSETv0 taxonomy page), fetched 2026-09-27
+claims:
+  q-cset0-def-a:
+    quotes:
+    - exact: Every incident is independently classified by two CSET annotators. Annotations are peer reviewed
+        and finally randomly selected for quality control ahead of publication.
+      section: What is the CSET Taxonomy?
+  q-cset0-def-cd:
+    quotes:
+    - exact: Was harm caused, or was it a near miss?
+      section: 'field: Harm nearly missed?'
+  q-cset0-def-f:
+    quotes:
+    - exact: Indicates the type(s) of harm caused or nearly caused by the incident.
+      section: 'field: Harm type'
+  q-cset0-def-g:
+    quotes:
+    - exact: '"Unclear" applies if the evidence is contradictory or too thin to apply either of the above
+        labels.'
+      section: 'field: Probable level of intent'

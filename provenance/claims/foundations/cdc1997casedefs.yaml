@@ -1,0 +1,56 @@
+claim: cdc1997casedefs
+title: Case Definitions for Infectious Conditions Under Public Health Surveillance
+description: Quotations used on the site Theoretical Foundations pages, pinned to cdc_mmwr_case_definitions_1997_rr10.txt.
+source:
+  citation: cdc1997casedefs
+  title: Case Definitions for Infectious Conditions Under Public Health Surveillance
+  local: cdc_mmwr_case_definitions_1997_rr10.txt
+  sha256: 948601ff91c653e0debfa408ca52bc01193f30b0e52e9d825893d902801d2980
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  different_criteria:
+    quotes:
+    - exact: state health departments and individual practitioners often applied different criteria for
+        reporting similar cases
+  uniform:
+    quotes:
+    - exact: increase the specificity of reporting and improve the comparability of diseases reported
+        from different geographic areas
+  clinically_compatible:
+    quotes:
+    - exact: 'Clinically compatible case: a clinical syndrome generally compatible with the disease, as
+        described in the clinical description.'
+  epi_linked:
+    quotes:
+    - exact: transmission of the agent by the usual modes of transmission is plausible
+  suspected:
+    quotes:
+    - exact: 'Suspected: any febrile illness accompanied by rash'
+  probable:
+    quotes:
+    - exact: 'Probable: a case that meets the clinical case definition, has noncontributory or no serologic
+        or virologic testing, and is not epidemiologically linked to a confirmed case'
+  confirmed:
+    quotes:
+    - exact: 'Confirmed: a case that is laboratory confirmed or that meets the clinical case definition
+        and is epidemiologically linked to a confirmed case'
+  provisional_update:
+    quotes:
+    - exact: State health departments should continue prompt reporting of provisional cases to CDC, and
+        records should be updated with the appropriate classification status when additional surveillance
+        information becomes available
+  provisional_counts:
+    quotes:
+    - exact: are provisional because of ongoing revision of information and delayed reporting; thus, these
+        numbers may change
+  not_action:
+    quotes:
+    - exact: should not be used as criteria for public health action
+  act_anyway:
+    quotes:
+    - exact: appropriate public health action should be undertaken even though insufficient information
+        is available to determine whether cases meet the case definition
+  measles_heading:
+    quotes:
+    - exact: Measles (Revised 9/96)

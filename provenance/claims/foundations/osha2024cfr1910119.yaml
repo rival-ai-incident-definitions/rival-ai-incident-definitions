@@ -1,0 +1,32 @@
+claim: osha2024cfr1910119
+title: 29 CFR 1910.119 Process safety management of highly hazardous chemicals (CFR 2024)
+description: Quotations used on the site Theoretical Foundations pages, pinned to govinfo_29cfr1910_119_2024.txt.
+source:
+  citation: osha2024cfr1910119
+  title: 29 CFR 1910.119 Process safety management of highly hazardous chemicals (CFR 2024)
+  local: govinfo_29cfr1910_119_2024.txt
+  sha256: 678f3a1ca0954c0be06996f3d9f00a0d5fb47d4601e66c9a010d4b215f321389
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  catastrophic_def:
+    quotes:
+    - exact: means a major uncontrolled emission, fire, or explosion, involving one or more highly hazardous
+        chemicals, that presents serious danger to employees in the workplace
+  investigate_each:
+    quotes:
+    - exact: The employer shall investigate each incident which resulted in, or could reasonably have
+        resulted in a catastrophic release of highly hazardous chemical in the workplace.
+  report_factors:
+    quotes:
+    - exact: The factors that contributed to the incident
+  near_misses:
+    quotes:
+    - exact: Some of the events are sometimes referred to as “near misses,” meaning that a serious consequence
+        did not occur, but could have.
+  not_blame:
+    quotes:
+    - exact: The focus of the investigation should be to obtain facts, and not to place blame.
+  appendix_c_nonmandatory:
+    quotes:
+    - exact: This appendix serves as a nonmandatory guideline

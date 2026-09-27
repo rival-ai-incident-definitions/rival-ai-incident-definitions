@@ -1,0 +1,48 @@
+claim: eu2012seveso
+title: Directive 2012/18/EU (Seveso III)
+description: Quotations used on the site Theoretical Foundations pages, pinned to eu_seveso3_2012_18.txt.
+source:
+  citation: eu2012seveso
+  title: Directive 2012/18/EU (Seveso III)
+  local: eu_seveso3_2012_18.txt
+  sha256: 0ad0ea5b3606dc108bec6e245d2509b2118e8bb527478d10e115a8bea36fec8f
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  major_accident_2:
+    quotes:
+    - exact: danger to human health or the environment, immediate or delayed, inside or outside the establishment,
+        and involving one or more dangerous substances
+  hazard_def:
+    quotes:
+    - exact: ‘hazard’ means the intrinsic property of a dangerous substance or physical situation, with
+        a potential for creating damage to human health or the environment
+  risk_def:
+    quotes:
+    - exact: ‘risk’ means the likelihood of a specific effect occurring within a specified period or in
+        specified circumstances
+  annex_death:
+    quotes:
+    - exact: a death;
+  annex_six:
+    quotes:
+    - exact: six persons injured within the establishment and hospitalised for at least 24 hours
+  annex_near_miss:
+    quotes:
+    - exact: Accidents or ‘near misses’ which Member States regard as being of particular technical interest
+        for preventing major accidents and limiting their consequences and which do not meet the quantitative
+        criteria above should be notified to the Commission.
+  update:
+    quotes:
+    - exact: update the information provided if further investigation reveals additional facts which alter
+        that information or the conclusions drawn
+  causes_analysis:
+    quotes:
+    - exact: an analysis of the causes of the accidents
+  major_accident_1a:
+    quotes:
+    - exact: ‘major accident’ means an occurrence such as a major emission, fire, or explosion resulting
+        from uncontrolled developments in the course of the operation of any estab
+  major_accident_1b:
+    quotes:
+    - exact: lishment covered by this Directive, and leading to serious

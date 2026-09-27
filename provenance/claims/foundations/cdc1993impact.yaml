@@ -1,0 +1,17 @@
+claim: cdc1993impact
+title: Impact of the Expanded AIDS Surveillance Case Definition, First Quarter 1993
+description: Quotations used on the site Theoretical Foundations pages, pinned to cdc_mmwr_1993_expanded_aids_definition_impact_q1_1993.txt.
+source:
+  citation: cdc1993impact
+  title: Impact of the Expanded AIDS Surveillance Case Definition, First Quarter 1993
+  local: cdc_mmwr_1993_expanded_aids_definition_impact_q1_1993.txt
+  sha256: f2a17cf37fa564c9692d0deb3ab1f1dcb033d95799ef9bf840d13ae4690ddd74
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  aids_added:
+    quotes:
+    - exact: were reported based on the conditions added in 1993
+  aids_counts:
+    quotes:
+    - exact: Of the 35,779 AIDS cases, 21,582 (60%) were reported based on the conditions added in 1993

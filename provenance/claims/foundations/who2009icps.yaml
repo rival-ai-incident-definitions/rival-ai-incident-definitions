@@ -1,0 +1,77 @@
+claim: who2009icps
+title: Conceptual Framework for the International Classification for Patient Safety, Version 1.1, Final
+  Technical Report
+description: Quotations used on the site foundations/patient-safety page, pinned to who_icps_2010_conceptual_framework.txt.
+source:
+  citation: who2009icps
+  title: Conceptual Framework for the International Classification for Patient Safety, Version 1.1, Final
+    Technical Report
+  local: who_icps_2010_conceptual_framework.txt
+  sha256: ce5e22ba8e33acf77e2899feae42eeca8fc24f571d1b5fd0609097afabfac047
+  extract_cmd: ''
+  read_in_full: false
+claims:
+  hazard:
+    quotes:
+    - exact: Hazard is a circumstance, agent or action with the potential to cause harm.
+  incident_def:
+    quotes:
+    - exact: A patient safety incident is an event or circumstance that could have resulted, or did result,
+        in unnecessary harm to a patient.
+  four_kinds:
+    quotes:
+    - exact: An incident can be a reportable circumstance, near miss, no harm incident or harmful incident
+        (adverse event).
+  reportable_circumstance:
+    quotes:
+    - exact: A reportable circumstance is a situation in which there was significant potential for harm,
+        but no incident occurred
+  near_miss:
+    quotes:
+    - exact: A near miss is an incident which did not reach the patient
+  no_harm:
+    quotes:
+    - exact: A no harm incident is one in which an event reached a patient but no discernable harm resulted
+  harmful:
+    quotes:
+    - exact: A harmful incident (adverse event) is an incident that results in harm to a patient
+  risk_def:
+    quotes:
+    - exact: Risk is the probability than an incident will occur.
+  contributing_def:
+    quotes:
+    - exact: A contributing factor is a circumstance, action or influence (such as poor rostering or task
+        allocation) that is thought to have played a part in the origin or development, or to increase
+        the risk, of an incident.
+  contributing_sufficient:
+    quotes:
+    - exact: A contributing factor may be a necessary precursor of an incident and may or may not be sufficient
+        to cause the incident.
+  always_factors:
+    quotes:
+    - exact: An incident always has a set of contributing factors.
+  patient_outcome:
+    quotes:
+    - exact: Patient outcome is the impact upon a patient which is wholly or partially attributable to
+        an incident.
+  degree_def:
+    quotes:
+    - exact: the degree of harm is the severity and duration of any harm, and any treatment implications,
+        that result from an incident
+  death_level:
+    quotes:
+    - exact: Death – on balance of probabilities, death was caused or brought forward in the short term
+        by the incident.
+  ten_classes:
+    quotes:
+    - exact: 'The 10 high level classes are:'
+  not_complete:
+    quotes:
+    - exact: It is important to note that the ICPS is not yet a complete classification.
+  outcomes_classified:
+    quotes:
+    - exact: Patient outcomes can be classified according to the type of harm, the degree of harm, and
+        any social and/or economic impact.
+  more_than_one_type:
+    quotes:
+    - exact: a patient safety incident can be classified as more than one incident type
