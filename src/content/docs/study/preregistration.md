@@ -19,13 +19,35 @@ A departure from a frozen registration is logged as a deviation, with its date a
 
 ## Registrations
 
-| Registration | Question | Status | OSF | Hash |
-|---|---|---|---|---|
-| Shared definitions | Data, three-state logic, readings rules and verdicts common to all five | Draft 5, not frozen | Not yet registered | — |
-| Source search | Which published sources ground each reading of the definitions? | Draft, not frozen | Not yet registered | — |
-| Definition crosswalk | How do published AI-incident definitions reclassify the same coded incidents? | Draft 5, not frozen | Not yet registered | — |
-| Revision | What changes when one taxonomy is revised and the same incidents are recoded? | Draft 5, not frozen | Not yet registered | — |
-| Human and language-model coding | Do a human-coded and an LLM-coded taxonomy sort the same incidents the same way? | Draft 5, not frozen | Not yet registered | — |
-| Author-supplied coding | Does an author-supplied case-level coding match the joint table recovered from its printed summaries? | Draft 5, not frozen | Not yet registered | — |
+All five were frozen on 29 September 2026 and registered on OSF the same day. Each OSF record carries the registration's full text and two attached files: the shared definitions (`CONTEXT.md`) and the rule dictionary (`RULES.yaml`).
 
-When a registration is frozen, its row gets the OSF link, the freeze date and the hash of the frozen text.
+| Registration | Question | OSF | Hash of the frozen text |
+|---|---|---|---|
+| Source search | Which published sources ground each reading of the definitions? | [osf.io/t6ns4](https://osf.io/t6ns4/) | `94a779ee8bf8` |
+| Definition crosswalk | How do published AI-incident definitions reclassify the same coded incidents? | [osf.io/qyfzc](https://osf.io/qyfzc/) | `d9fafae7a072` |
+| Revision | What changes when one taxonomy is revised and the same incidents are recoded? | [osf.io/98p3c](https://osf.io/98p3c/) | `2813abd829d8` |
+| Human and language-model coding | Do a human-coded and an LLM-coded taxonomy sort the same incidents the same way? | [osf.io/gqd65](https://osf.io/gqd65/) | `2a9cff9d097d` |
+| Author-supplied coding | Does an author-supplied case-level coding match the joint table recovered from its printed summaries? | [osf.io/478ny](https://osf.io/478ny/) | `815b2c17aa32` |
+
+## Hypotheses
+
+Each hypothesis in plain words; the exact registered wording is on its OSF record. Primary hypotheses are in bold. The outcome of each is in the run outputs in the [study repository](https://github.com/rival-ai-incident-definitions/rival-ai-incident-definitions-paper).
+
+| Hypothesis | Registered prediction |
+|---|---|
+| **Crosswalk H1** | How the OECD's rights clause is read changes how the OECD and CSET definitions relate: the OECD's class is wider under the broad reading, and the two classes each hold many incidents the other lacks under the literal one |
+| Crosswalk H2 | CSET's tangible and intangible harm classes each hold many incidents the other lacks |
+| **Crosswalk H3** | Under the literal reading, the two definitions count similar numbers of incidents while classifying at least 10% of incidents differently |
+| **Crosswalk H4** | The two definitions disagree more than two CSET annotators applying one definition do |
+| Crosswalk H5 | Requiring a clear AI link, rather than any AI involvement, changes the OECD class by at least 11 incidents |
+| Crosswalk H6 | Pairs of rules of the same formal type leave fewer incidents unclassified, and disagree in one direction, compared with mixed pairs |
+| Revision H1 | CSET's revision moved incidents between classes more than it changed the total in each class |
+| Revision H2 | The revision gave a definite status to at least half of the incidents the first edition left unclear |
+| Revision H3 | First-edition near misses map to the second edition's near-miss value more often than to realized harm |
+| Coding H1 | MIT's discrimination class sits inside CSET's, and CSET's is materially wider |
+| Coding H2 | MIT's harmful-content class sits inside CSET's, and CSET's is materially wider |
+| Coding H3 | Incidents CSET flags but MIT files elsewhere go most often to MIT's misuse domain |
+| Author-supplied H1 | The authors' own coding gives the table recovered from their printed figures, 8 / 362 / 1 / 109 |
+| Author-supplied H2 | GDPR non-compliance sits inside EU AI Act non-compliance, with at most one exception |
+
+The source search registers no hypothesis: it fixes how sources are found and how a quotation changes the label of a reading.

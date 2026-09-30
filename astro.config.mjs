@@ -76,6 +76,7 @@ export default defineConfig({
           items: [
             { label: 'Overview', link: '/study/' },
             { label: 'Preregistration', link: '/study/preregistration/' },
+            { label: 'Results', link: '/study/results/' },
           ],
         },
         {
@@ -83,14 +84,29 @@ export default defineConfig({
           collapsed: false,
           items: [
             { label: 'Overview', link: '/foundations/' },
-            { label: 'Aviation', link: '/foundations/aviation/' },
-            { label: 'Medical Devices', link: '/foundations/medical-devices/' },
-            { label: 'Pharmacovigilance', link: '/foundations/pharmacovigilance/' },
-            { label: 'Patient Safety', link: '/foundations/patient-safety/' },
-            { label: 'Nuclear Safety', link: '/foundations/nuclear-safety/' },
-            { label: 'Cybersecurity', link: '/foundations/cybersecurity/' },
-            { label: 'Process Safety', link: '/foundations/process-safety/' },
-            { label: 'Public-Health Case Definitions', link: '/foundations/public-health/' },
+            {
+              label: 'Incident Reporting',
+              collapsed: false,
+              items: [
+                { label: 'Aviation', link: '/foundations/aviation/' },
+                { label: 'Medical Devices', link: '/foundations/medical-devices/' },
+                { label: 'Drug Safety', link: '/foundations/pharmacovigilance/' },
+                { label: 'Patient Safety', link: '/foundations/patient-safety/' },
+                { label: 'Nuclear Safety', link: '/foundations/nuclear-safety/' },
+                { label: 'Cybersecurity', link: '/foundations/cybersecurity/' },
+                { label: 'Process Safety', link: '/foundations/process-safety/' },
+                { label: 'Public-Health Case Definitions', link: '/foundations/public-health/' },
+              ],
+            },
+            {
+              label: 'Rival Criteria',
+              collapsed: false,
+              items: [
+                { label: 'Diagnostic Criteria', link: '/foundations/diagnostic-criteria/' },
+                { label: 'Conflict Datasets', link: '/foundations/conflict-datasets/' },
+                { label: 'Research Classification', link: '/foundations/research-classification/' },
+              ],
+            },
           ],
         },
         {

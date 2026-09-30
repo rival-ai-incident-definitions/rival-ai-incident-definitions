@@ -1,0 +1,32 @@
+claim: raleigh2023conflict
+title: Political instability patterns are obscured by conflict dataset scope conditions, sources, and
+  coding choices
+description: Quotations used on the site Theoretical Foundations pages, pinned to hsscomms2023_conflict_datasets_scope_sources_coding.txt.
+source:
+  citation: raleigh2023conflict
+  title: Political instability patterns are obscured by conflict dataset scope conditions, sources, and
+    coding choices
+  local: hsscomms2023_conflict_datasets_scope_sources_coding.txt
+  sha256: e152fe14c20041cc2c9d58e04423e5760603c948b35b4374c6d6fa7cc10cf822
+  extract_cmd: ''
+  read_in_full: true
+claims:
+  same_phenomena:
+    quotes:
+    - exact: answers to “which country is most violent?”; “where are civilians most at risk?”; and “is
+        the frequency of conflict increasing or decreasing?” vary according to datasets all purporting
+        to capture the same phenomena of political violence
+      section: Abstract
+      page: 1
+  definition_restriction:
+    quotes:
+    - exact: Persistent low-level political violence is entirely missing in some datasets, for example,
+        because of definition restriction rather than its occurrence being in doubt
+      section: 'Conflict catchment: Inclusion criteria and definitions'
+      page: 8
+  acceptable_choices:
+    quotes:
+    - exact: Acknowledging a prioritization of specific conflict forms, and privileging validity or reliability,
+        are all acceptable choices.
+      section: Standards and transparency as guiding principles
+      page: 14

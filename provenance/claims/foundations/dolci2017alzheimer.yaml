@@ -1,0 +1,19 @@
+claim: dolci2017alzheimer
+title: 'Alzheimer''s Disease Diagnosis: Discrepancy between Clinical, Neuroimaging, and Cerebrospinal
+  Fluid Biomarkers Criteria in an Italian Cohort of Geriatric Outpatients'
+description: Quotations used on the site Theoretical Foundations pages, pinned to frontiers2017_alzheimer_criteria_discrepancy.txt.
+source:
+  citation: dolci2017alzheimer
+  title: 'Alzheimer''s Disease Diagnosis: Discrepancy between Clinical, Neuroimaging, and Cerebrospinal
+    Fluid Biomarkers Criteria in an Italian Cohort of Geriatric Outpatients'
+  local: frontiers2017_alzheimer_criteria_discrepancy.txt
+  sha256: 2d3ee8f04f7c002a5c61ebcc2252f06c9412bf20808ce885d5088660aaaa2125
+  extract_cmd: ''
+  read_in_full: true
+claims:
+  nested:
+    quotes:
+    - exact: Every patient who was classified as demented according to the DSM-IV criteria was also classified
+        as demented according to the NIA-AA criteria
+      section: Results
+      page: 5

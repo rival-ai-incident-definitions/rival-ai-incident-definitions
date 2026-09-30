@@ -1,0 +1,19 @@
+claim: lam2017alzheimer
+title: 'The Alzheimer''s Spectrum: Diagnostic Challenges and Nosology in a Clinically Heterogeneous Disease
+  (MSc thesis, University of Toronto)'
+description: Quotations used on the site Theoretical Foundations pages, pinned to lam2017_diagnostic_disagreement_alzheimer_criteria_msc_thesis.txt.
+source:
+  citation: lam2017alzheimer
+  title: 'The Alzheimer''s Spectrum: Diagnostic Challenges and Nosology in a Clinically Heterogeneous
+    Disease (MSc thesis, University of Toronto)'
+  local: lam2017_diagnostic_disagreement_alzheimer_criteria_msc_thesis.txt
+  sha256: da49a9ce22d3a30a968debadcefc091e8d7b7476f8bdf061cbf6cf63462f3f74
+  extract_cmd: ''
+  read_in_full: true
+claims:
+  excluded_included:
+    quotes:
+    - exact: Even when significant overlap occurs, cases excluded by one criterion may be included by
+        another.
+      section: 5.6 Conclusion
+      page: 103

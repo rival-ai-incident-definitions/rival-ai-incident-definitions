@@ -5,7 +5,7 @@ description: The AI Incident Database definition of an AI incident, quoted from 
 
 # AI Incident Database
 
-The AI Incident Database (AIID) admits incidents under the definition in its editors' guide.
+The AI Incident Database (AIID) admits incidents under the definition in its [editors' guide](https://incidentdatabase.ai/editors-guide/).
 
 ## Definition
 

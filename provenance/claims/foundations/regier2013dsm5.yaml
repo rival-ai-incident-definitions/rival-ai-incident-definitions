@@ -1,0 +1,19 @@
+claim: regier2013dsm5
+title: 'DSM-5 Field Trials in the United States and Canada, Part II: Test-Retest Reliability of Selected
+  Categorical Diagnoses'
+description: Quotations used on the site Theoretical Foundations pages, pinned to regier2013_dsm5_field_trials_part2.txt.
+source:
+  citation: regier2013dsm5
+  title: 'DSM-5 Field Trials in the United States and Canada, Part II: Test-Retest Reliability of Selected
+    Categorical Diagnoses'
+  local: regier2013_dsm5_field_trials_part2.txt
+  sha256: 90242967b44a5da08e1ef63293681d3791432c6a5b357a01107fce888af08078
+  extract_cmd: ''
+  read_in_full: true
+claims:
+  reliability_def:
+    quotes:
+    - exact: the degree to which the diagnosis of a mental disorder by one clinician would likely be replicated
+        by a second clinician interviewing the same patient
+      section: Introduction
+      page: 1

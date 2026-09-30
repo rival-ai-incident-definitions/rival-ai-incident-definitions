@@ -5,7 +5,7 @@ description: How the MIT AI Incident Tracker classifies AI Incident Database inc
 
 # MIT AI Incident Tracker
 
-The MIT AI Incident Tracker, from MIT FutureTech and the MIT AI Risk Repository, classifies the incidents in the [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/) with language models rather than human coders.
+The [MIT AI Incident Tracker](https://airisk.mit.edu/blog/ai-incident-tracker-june-2026-update), from MIT FutureTech and the MIT AI Risk Repository, classifies the incidents in the [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/) with language models rather than human coders.
 
 ## Method
 

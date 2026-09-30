@@ -5,8 +5,20 @@
       "title": "About"
     },
     {
+      "slug": "/foundations/conflict-datasets/",
+      "title": "Conflict Event Datasets"
+    },
+    {
+      "slug": "/foundations/diagnostic-criteria/",
+      "title": "Diagnostic Criteria"
+    },
+    {
       "slug": "/foundations/public-health/",
       "title": "Public-Health Case Definitions"
+    },
+    {
+      "slug": "/foundations/research-classification/",
+      "title": "Research Classification"
     },
     {
       "slug": "/framework/",
@@ -52,7 +64,7 @@
     },
     {
       "slug": "/foundations/pharmacovigilance/",
-      "title": "Pharmacovigilance"
+      "title": "Drug Safety"
     },
     {
       "slug": "/foundations/process-safety/",
@@ -61,6 +73,10 @@
     {
       "slug": "/foundations/public-health/",
       "title": "Public-Health Case Definitions"
+    },
+    {
+      "slug": "/foundations/research-classification/",
+      "title": "Research Classification"
     },
     {
       "slug": "/framework/",
@@ -104,7 +120,7 @@
     },
     {
       "slug": "/foundations/pharmacovigilance/",
-      "title": "Pharmacovigilance"
+      "title": "Drug Safety"
     },
     {
       "slug": "/foundations/public-health/",
@@ -172,7 +188,7 @@
     },
     {
       "slug": "/foundations/pharmacovigilance/",
-      "title": "Pharmacovigilance"
+      "title": "Drug Safety"
     },
     {
       "slug": "/foundations/process-safety/",
@@ -239,6 +255,10 @@
       "title": "Cybersecurity"
     },
     {
+      "slug": "/foundations/diagnostic-criteria/",
+      "title": "Diagnostic Criteria"
+    },
+    {
       "slug": "/foundations/medical-devices/",
       "title": "Medical Devices"
     },
@@ -248,7 +268,7 @@
     },
     {
       "slug": "/foundations/pharmacovigilance/",
-      "title": "Pharmacovigilance"
+      "title": "Drug Safety"
     },
     {
       "slug": "/foundations/process-safety/",
@@ -281,6 +301,72 @@
     {
       "slug": "/definitions/",
       "title": "Definitions"
+    }
+  ],
+  "/rival-ai-incident-definitions/framework/rules/": [
+    {
+      "slug": "/foundations/conflict-datasets/",
+      "title": "Conflict Event Datasets"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    }
+  ],
+  "/rival-ai-incident-definitions/framework/verdicts/": [
+    {
+      "slug": "/foundations/conflict-datasets/",
+      "title": "Conflict Event Datasets"
+    },
+    {
+      "slug": "/foundations/diagnostic-criteria/",
+      "title": "Diagnostic Criteria"
+    },
+    {
+      "slug": "/foundations/research-classification/",
+      "title": "Research Classification"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
+      "slug": "/framework/three-state/",
+      "title": "Three-State Labels"
+    },
+    {
+      "slug": "/readings/",
+      "title": "Readings"
+    },
+    {
+      "slug": "/study/preregistration/",
+      "title": "Preregistration"
+    },
+    {
+      "slug": "/study/",
+      "title": "Study Overview"
+    }
+  ],
+  "/rival-ai-incident-definitions/framework/three-state/": [
+    {
+      "slug": "/foundations/diagnostic-criteria/",
+      "title": "Diagnostic Criteria"
+    },
+    {
+      "slug": "/framework/",
+      "title": "Framework Overview"
+    },
+    {
+      "slug": "/framework/rules/",
+      "title": "Rules"
+    },
+    {
+      "slug": "/framework/verdicts/",
+      "title": "Verdicts"
+    },
+    {
+      "slug": "/study/preregistration/",
+      "title": "Preregistration"
     }
   ],
   "/rival-ai-incident-definitions/foundations/aviation/": [
@@ -363,13 +449,25 @@
       "title": "Framework Overview"
     }
   ],
-  "/rival-ai-incident-definitions/": [
+  "/rival-ai-incident-definitions/foundations/diagnostic-criteria/": [
     {
-      "slug": "/framework/",
-      "title": "Framework Overview"
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
     }
   ],
-  "/rival-ai-incident-definitions/framework/rules/": [
+  "/rival-ai-incident-definitions/foundations/conflict-datasets/": [
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    }
+  ],
+  "/rival-ai-incident-definitions/foundations/research-classification/": [
+    {
+      "slug": "/foundations/",
+      "title": "Theoretical Foundations"
+    }
+  ],
+  "/rival-ai-incident-definitions/": [
     {
       "slug": "/framework/",
       "title": "Framework Overview"
@@ -395,46 +493,6 @@
     {
       "slug": "/readings/",
       "title": "Readings"
-    }
-  ],
-  "/rival-ai-incident-definitions/framework/three-state/": [
-    {
-      "slug": "/framework/",
-      "title": "Framework Overview"
-    },
-    {
-      "slug": "/framework/rules/",
-      "title": "Rules"
-    },
-    {
-      "slug": "/framework/verdicts/",
-      "title": "Verdicts"
-    },
-    {
-      "slug": "/study/preregistration/",
-      "title": "Preregistration"
-    }
-  ],
-  "/rival-ai-incident-definitions/framework/verdicts/": [
-    {
-      "slug": "/framework/",
-      "title": "Framework Overview"
-    },
-    {
-      "slug": "/framework/three-state/",
-      "title": "Three-State Labels"
-    },
-    {
-      "slug": "/readings/",
-      "title": "Readings"
-    },
-    {
-      "slug": "/study/preregistration/",
-      "title": "Preregistration"
-    },
-    {
-      "slug": "/study/",
-      "title": "Study Overview"
     }
   ],
   "/rival-ai-incident-definitions/foundations/": [

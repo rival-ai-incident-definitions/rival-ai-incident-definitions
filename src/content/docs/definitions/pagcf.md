@@ -5,7 +5,7 @@ description: The Post-Deployment Accountability coding of 480 AI Incident Databa
 
 # PAGCF
 
-Mumtaz, Noor and Mumtaz (2026) coded 480 incidents from the [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/) against post-deployment provisions of the EU AI Act, the NIST AI Risk Management Framework and the GDPR, and released the coding as the PAGCF dataset.
+[Mumtaz, Noor and Mumtaz (2026)](https://arxiv.org/abs/2605.16281) coded 480 incidents from the [AI Incident Database](/rival-ai-incident-definitions/definitions/aiid/) against post-deployment provisions of the EU AI Act, the NIST AI Risk Management Framework and the GDPR, and released the coding as the PAGCF dataset.
 
 ## Method
 

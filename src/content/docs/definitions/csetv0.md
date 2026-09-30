@@ -5,7 +5,7 @@ description: CSET's first AI harm taxonomy, CSETv0, quoted from the AI Incident 
 
 # CSETv0
 
-Before its current taxonomy, CSET coded AI Incident Database incidents with its first edition, CSETv0, and 100 incidents carry codes under both.
+Before its current taxonomy, CSET coded AI Incident Database incidents with its first edition, [CSETv0](https://incidentdatabase.ai/taxonomies/csetv0/), and 100 incidents carry codes under both.
 
 > Every incident is independently classified by two CSET annotators. Annotations are peer reviewed and finally randomly selected for quality control ahead of publication.
 

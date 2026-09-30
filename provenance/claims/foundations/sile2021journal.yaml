@@ -1,0 +1,30 @@
+claim: sile2021journal
+title: 'Tracing the context in disciplinary classifications: A bibliometric pairwise comparison of five
+  classifications of journals in the social sciences and humanities'
+description: Quotations used on the site Theoretical Foundations pages, pinned to sile2021_five_journal_classifications_pairwise_qss.txt.
+source:
+  citation: sile2021journal
+  title: 'Tracing the context in disciplinary classifications: A bibliometric pairwise comparison of five
+    classifications of journals in the social sciences and humanities'
+  local: sile2021_five_journal_classifications_pairwise_qss.txt
+  sha256: 82ec8837ded9e73f151498c310c62a8d92bdf7c3a8156bd9c084be2a450a8823
+  extract_cmd: ''
+  read_in_full: true
+claims:
+  absolute_counts:
+    quotes:
+    - exact: the choice of disciplinary classification can lead to over- or underestimation of the absolute
+        number of publications per discipline
+      section: Abstract
+      page: 65
+  relative_numbers:
+    quotes:
+    - exact: if the focus is on the relative numbers, the choice of classification has practically no
+        influence
+      section: Abstract
+      page: 65
+  agreement_not_accuracy:
+    quotes:
+    - exact: Agreement, however, does not mean that the classification is accurate.
+      section: 2. Related Studies
+      page: 68

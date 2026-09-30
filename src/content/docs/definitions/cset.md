@@ -5,7 +5,7 @@ description: The CSET AI Harm Taxonomy definitions of an AI tangible harm event 
 
 # CSETv1
 
-The Center for Security and Emerging Technology (CSET) coded AI Incident Database incidents with its AI Harm Taxonomy (CSETv1). The annotation guide defines two kinds of harm.
+The Center for Security and Emerging Technology (CSET) coded AI Incident Database incidents with its [AI Harm Taxonomy](https://github.com/georgetown-cset/CSET-AIID-harm-taxonomy) (CSETv1). The annotation guide defines two kinds of harm.
 
 ## Definitions
 
